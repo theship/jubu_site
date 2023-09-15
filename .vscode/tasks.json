@@ -22,6 +22,12 @@
       "presentation": {
         "reveal": "silent"
       }
+    },
+    {
+      "label": "Sass Compile",
+      "type": "shell",
+      "command": "node-sass docs/assets/stylesheets/custom.scss docs/assets/stylesheets/custom.css",
+      "group": "build"
     }
   ]
 }

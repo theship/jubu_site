@@ -1,0 +1,89 @@
+.md-sidebar--primary {
+  display: none;
+}
+
+@media only screen and (min-width: 60em) {
+  .md-content {
+    margin-right: 0;
+  }
+}
+section.portfolio-container {
+  display: block;
+  position: relative;
+  transform-style: preserve-3d;
+  width: max-content;
+}
+section.portfolio-container .md-grid {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 61rem;
+}
+section.portfolio-container .md-grid .mdx-spotlight {
+  display: flex;
+  flex-direction: column;
+}
+section.portfolio-container .md-grid .mdx-spotlight h1 {
+  border-bottom: 1px outset #526CFF;
+}
+section.portfolio-container .md-grid .mdx-spotlight__feature {
+  text-align: left;
+  display: flex;
+  flex-direction: row;
+  border-bottom: 0.5px solid #526CFF;
+  font-weight: lighter;
+}
+section.portfolio-container .md-grid .mdx-spotlight__feature:nth-child(odd) {
+  flex-direction: row-reverse;
+}
+section.portfolio-container .md-grid .mdx-spotlight__feature:last-child {
+  border-bottom: none;
+}
+section.portfolio-container .md-grid .mdx-spotlight__feature figcaption.md-typeset {
+  max-width: 50vw;
+  margin: 0 1em 0;
+}
+section.portfolio-container .md-grid .mdx-spotlight__feature figcaption.md-typeset h2 {
+  margin-block-start: 0;
+  color: var(--md-code-hl-special-color);
+  font-weight: lighter;
+}
+
+nav.md-nav.md-nav--secondary li.md-nav__item .md-nav {
+  display: none;
+}
+
+@media screen and (max-width: 48rem) {
+  section.portfolio-container {
+    width: 95%;
+  }
+  section.portfolio-container .md-grid .mdx-spotlight {
+    flex-direction: column;
+  }
+  section.portfolio-container .md-grid .mdx-spotlight__feature {
+    flex-direction: column;
+  }
+  section.portfolio-container .md-grid .mdx-spotlight__feature:nth-child(odd) {
+    flex-direction: column;
+  }
+}
+.mdx-hero {
+  box-sizing: inherit;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.mdx-hero__image {
+  max-width: 50%;
+}
+.mdx-hero__content {
+  padding: 5%;
+  margin-top: -5%;
+}
+
+.md-typeset h3 {
+  color: var(--md-code-hl-special-color);
+  font-weight: lighter;
+}
+
+/*# sourceMappingURL=custom.css.map */

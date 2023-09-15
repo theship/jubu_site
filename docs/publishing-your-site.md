@@ -111,7 +111,7 @@ contents:
         [built-in optimize plugin] to automatically compress images.
 
     2.  Remember to set the `GH_TOKEN` environment variable to the value of your
-        [personal access token] when deploying [Insiders], which can be done
+        [personal access token] when deploying [portfolio], which can be done
         using [GitHub secrets].
 
 Now, when a new commit is pushed to either the `master` or `main` branches,
@@ -127,7 +127,7 @@ Your documentation should shortly appear at `<username>.github.io/<repository>`.
   [GitHub Actions]: https://github.com/features/actions
   [MkDocs plugins]: https://github.com/mkdocs/mkdocs/wiki/MkDocs-Plugins
   [personal access token]: https://docs.github.com/en/github/authenticating-to-github/creating-a-personal-access-token
-  [Insiders]: insiders/index.md
+  [portfolio]: portfolio/index.md
   [built-in optimize plugin]: setup/building-an-optimized-site.md#built-in-optimize-plugin
   [GitHub secrets]: https://docs.github.com/en/actions/configuring-and-managing-workflows/creating-and-storing-encrypted-secrets
   [publishing source branch]: https://docs.github.com/en/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site
@@ -182,7 +182,7 @@ contents:
     ```
 
     1.  Remember to set the `GH_TOKEN` environment variable to the value of your
-        [personal access token] when deploying [Insiders], which can be done
+        [personal access token] when deploying [portfolio], which can be done
         using [masked custom variables].
 
 Now, when a new commit is pushed to `master`, the static site is automatically

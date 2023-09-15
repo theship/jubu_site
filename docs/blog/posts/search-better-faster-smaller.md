@@ -10,7 +10,7 @@ categories:
   - Performance
 links:
   - setup/setting-up-site-search.md#built-in-search-plugin
-  - insiders/index.md#how-to-become-a-sponsor
+  - portfolio/index.md#how-to-become-a-sponsor
 ---
 
 # Search: better, faster, smaller

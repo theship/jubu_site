@@ -1,6 +1,6 @@
 ---
 template: home.html
-title: Material for MkDocs
+title: Julee Burdekin's Site
 ---
 
-Welcome to Material for MkDocs.
+Welcome to Julee Burdekin's Site.

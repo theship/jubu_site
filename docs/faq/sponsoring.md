@@ -16,7 +16,7 @@ maintaining and managing the overhead that comes with growth became more
 challenging and time-consuming.
 
 In order to sustain the project and add new and useful features more frequently,
-we decided to create the [Insiders] edition, with early access to the latest and
+we decided to create the [portfolio] edition, with early access to the latest and
 greatest features of Material for MkDocs. The subscription-based model of the
 Insiders edition allows us to dedicate more time and resources to the project,
 which benefits all 
@@ -34,8 +34,8 @@ The Insiders edition includes more than 20 additional features. You can find an
 overview of these features on our [Insiders page], which is updated when new
 features are added and released.
 
-  [Insiders]: ../insiders/index.md
-  [Insiders page]: ../insiders/index.md#whats-in-it-for-me
+  [portfolio]: ../portfolio/index.md
+  [Insiders page]: ../portfolio/index.md#whats-in-it-for-me
 
 [__How often is the Insiders edition updated?__](#insiders-updates){ #insiders-updates }
 
@@ -229,7 +229,7 @@ features, becoming a sponsor is the way to go. If you have a feature in mind
 that you would like to see on the list, we encourage you to 
 [initiate a new discussion] to evaluate it with others.
 
-  [overview of these sponsoring goals]: ../insiders/index.md#goals
+  [overview of these sponsoring goals]: ../portfolio/index.md#goals
   [initiate a new discussion]: https://github.com/squidfunk/mkdocs-material/discussions/new/chooses
 
 [__What happens if I reach my sponsoring limit for my current tier?__](#insiders-limit){ #insiders-limit }
@@ -396,7 +396,7 @@ overrides via [configuration inheritance].
 See the [getting started guide] for more information.
 
   [configuration inheritance]: https://www.mkdocs.org/user-guide/configuration/#configuration-inheritance
-  [getting started guide]: ../insiders/getting-started.md#caveats
+  [getting started guide]: ../portfolio/index.md#caveats
   [Card grids]: ../reference/grids.md?h=grids#using-card-grids
 
 ## Support	

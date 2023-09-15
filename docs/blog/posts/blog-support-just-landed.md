@@ -7,7 +7,7 @@ description: >
 categories:
   - Blog
 links:
-  - Getting started with Insiders: insiders/getting-started.md#requirements
+  - Getting started with Insiders: portfolio/index.md#requirements
   - setup/setting-up-a-blog.md#built-in-blog-plugin
 ---
 
@@ -39,7 +39,7 @@ If you want to build a blog alongside your documentation, please refer to
 ### Setting up Insiders
 
 Before we can start bootstrapping a blog and [write our first post], we need to
-set up [Insiders], since the [built-in blog plugin] is currently reserved to
+set up [portfolio], since the [built-in blog plugin] is currently reserved to
 sponsors. Without the funds this project receives through sponsorships, this
 plugin wouldn't exist. Three steps are necessary:
 
@@ -48,10 +48,10 @@ plugin wouldn't exist. Three steps are necessary:
 3.  [Install Insiders]
 
   [write our first post]: #writing-your-first-post
-  [Insiders]: ../../insiders/index.md
-  [Subscribe to a monthly sponsorship]: ../../insiders/index.md#how-to-become-a-sponsor
-  [Create a personal access token]: ../../insiders/getting-started.md#requirements
-  [Install Insiders]: ../../insiders/getting-started.md#installation
+  [portfolio]: ../../portfolio/index.md
+  [Subscribe to a monthly sponsorship]: ../../portfolio/index.md#how-to-become-a-sponsor
+  [Create a personal access token]: ../../portfolio/index.md#requirements
+  [Install Insiders]: ../../portfolio/index.md#installation
 
 ### Creating a standalone blog
 

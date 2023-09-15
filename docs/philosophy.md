@@ -42,11 +42,11 @@ This documentation use some symbols for illustration purposes. Before you read
 on, please make sure you've made yourself familiar with the following list of
 conventions:
 
-[:octicons-heart-fill-24:{ .mdx-heart } &nbsp; Insiders][Insiders]{ .mdx-insiders }
+[:octicons-heart-fill-24:{ .mdx-heart } &nbsp; Insiders][portfolio]{ .mdx-insiders }
 
 :   Some features are not yet available in the community edition, but only as
     part of the Insiders build of Material for MkDocs. Please consult the 
-    [Insiders] guide to learn how to get access.
+    [portfolio] guide to learn how to get access.
 
 :octicons-tag-24: &nbsp; __{x.x.x}__
 
@@ -91,4 +91,4 @@ conventions:
     order to provide extended functionality, like for example support for
     versioning.
 
-  [Insiders]: insiders/index.md
+  [portfolio]: portfolio/index.md

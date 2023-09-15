@@ -1,0 +1,12 @@
+// No sidebar ToC
+// https: //github.com/squidfunk/mkdocs-material/issues/478#issuecomment-336447257
+.md-sidebar--primary {
+  display: none;
+}
+
+@media only screen and (min-width: 60em) {
+  .md-content {
+    margin-right: 0;
+  }
+}
+

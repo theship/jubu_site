@@ -108,7 +108,7 @@ It's absolutely mind-blowing that __38 new features__ were added to Material
 for MkDocs throughout 2021 – __that's a new feature every 9,6 days__ –
 which was only possible because of the constantly improving funding situation.
 Following is a list of all features shipped in alphabetical order, some of which
-are still exclusively available to sponsors as part of [Insiders]:
+are still exclusively available to sponsors as part of [portfolio]:
 
 <div class="mdx-columns" markdown>
 
@@ -159,7 +159,7 @@ Furthermore, a large amount of time was invested into refactoring the code base
 to keep it in good shape. While the `mkdocs-material` package was released
 __55__ times, `mkdocs-material-insiders` was shipped __72__ times.
 
-  [Insiders]: ../../insiders/index.md
+  [portfolio]: ../../portfolio/index.md
   [Admonition inline blocks]: ../../reference/admonitions.md#inline-blocks
   [Advanced search highlighting]: search-better-faster-smaller.md#accurate-highlighting
   [Anchor tracking]: ../../setup/setting-up-navigation.md#anchor-tracking
@@ -211,9 +211,9 @@ I'm solely providing these numbers to fulfill the transparency pledge I'm giving
 to my [awesome sponsors], and to show that it's possible to make existing Open
 Source projects sustainable by following a well-designed release strategy.
 
-You can learn about the strategy in the [Insiders] guide.
+You can learn about the strategy in the [portfolio] guide.
 
-  [awesome sponsors]: ../../insiders/index.md#how-to-become-a-sponsor
+  [awesome sponsors]: ../../portfolio/index.md#how-to-become-a-sponsor
 
 ## 2022
 

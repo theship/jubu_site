@@ -14,14 +14,11 @@
   },
   "license": "MIT",
   "private": true,
-  "author": {
-    "name": "Martin Donath",
-    "email": "martin.donath@squidfunk.com"
-  },
+  "author": "Martin Donath <martin.donath@squidfunk.com>",
   "contributors": [],
   "repository": {
     "type": "git",
-    "url": "https://github.com/squidfunk/mkdocs-material.git"
+    "url": "git+https://github.com/squidfunk/mkdocs-material.git"
   },
   "scripts": {
     "build": "rimraf material && ts-node -T tools/build --optimize",
@@ -99,5 +96,9 @@
   },
   "engines": {
     "node": ">= 18"
+  },
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
   }
 }
