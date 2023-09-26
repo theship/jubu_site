@@ -7,10 +7,22 @@
 .md-sidebar--primary {
   display: block;
 }
+.md-main__inner {
+  flex-direction: row;
+}
 
-@media only screen and (min-width: 60em) {
-  .md-content {
-    margin-right: 0;
+ul.md-nav__list{
+  flex-direction: column;
+
+}
+@media only screen and (max-width: 60em) {
+
+.md-main__inner {
+    flex-direction: column;
+    margin: 0 5vw;
+    .md-content {
+      margin: 0;
+    }
   }
 }
 </style>

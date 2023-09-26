@@ -1,0 +1,56 @@
+// No sidebar ToC
+// https: //github.com/squidfunk/mkdocs-material/issues/478#issuecomment-336447257
+
+.md-sidebar--primary {
+  display: none;
+}
+
+@media only screen and (min-width: 60em) {
+  .md-content {
+    margin-right: 0;
+    padding-top: 5vh;
+  }
+}
+
+.md-sidebar.md-sidebar--secondary {
+  display: none;
+}
+
+.md-sidebar--primary {
+  display: block;
+  position: relative;
+  padding: 0;
+  margin: -5vw 0 5vw 2vw;
+}
+
+.md-sidebar__scrollwrap {
+  width: fit-content;
+}
+
+nav.md-nav.md-nav--primary.md-nav--lifted {
+  display: flex;
+  position: relative;
+  flex-direction: row;
+  width: 85vw;
+}
+
+.md-sidebar__scrollwrap {
+  width: 85vw;
+}
+
+.md-sidebar__inner {
+  width: 85vw;
+}
+
+ul.md-nav__list {
+  display: flex;
+  flex-direction: row;
+  font-variant-caps: all-small-caps;
+}
+
+.md-main__inner {
+  display: flex;
+  height: 100%;
+  margin-top: 1.5rem;
+  flex-direction: column;
+}

@@ -1,0 +1,35 @@
+{% extends "main.html" %}
+{% import "partials/nav-item.html" as item with context %}
+<style>
+    nav.md-nav {
+        flex-direction: column;
+        display: flex;
+    }
+
+    ul.md-nav__list {
+        flex-direction: column;
+        display: flex;
+    }
+
+    .md-sidebar__inner {
+        flex-direction: column;
+        display: flex;
+    }
+
+    /* .md-sidebar__inner.md-post nav.md-nav {
+    flex-direction: column;
+    display: flex;
+}
+ */
+    nav.md-nav.md-nav--primary.md-nav--lifted {
+        display: none;
+        flex-direction: column;
+    }
+</style>
+<div class="blog-archive">
+{% block container %}
+
+
+{% endblock %}
+
+</div>

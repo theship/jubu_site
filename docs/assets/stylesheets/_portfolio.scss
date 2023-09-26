@@ -36,6 +36,9 @@ section.portfolio-container {
         }
         
       }
+      &__feature img {
+        height: fit-content;
+      }
     }
   }
 }
@@ -46,14 +49,60 @@ nav.md-nav.md-nav--secondary {
   }
 }
 
+.portfolio-overview {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  align-content: center;
+  margin: 0 auto;
+  max-width: 66%;
+  .portfolio-overview-item {
+    margin: 0.5vh 0.5vw;
+    padding: 0.5vh 0.5vw;
+    border: 0.5px solid #526CFF;
+    border-radius: 5px;
+    width: 20vw;
+    height: 16vw;
+    text-align: center;
+    vertical-align: middle;
+    h2 {
+      margin: 0;
+      padding: 0 0 1vh;
+      font-weight: lighter;
+      font-size: 1vw;
+      min-height: 25%;
+    }
+    p {
+      margin: 0;
+      padding: 0;
+      font-weight: lighter;
+    }
+    a {
+      text-decoration: none;
+      color: #526CFF;
+      &:hover {
+        color: #526CFF;
+      }
+      img {
+        max-height: 66%;
+      }
+    }
+  }
+}
+
 @media screen and (max-width: 48rem) {
   section.portfolio-container {
     width: 95%;
+
     .md-grid {
       .mdx-spotlight {
         flex-direction: column;
+
         &__feature {
           flex-direction: column;
+
           &:nth-child(odd) {
             flex-direction: column;
           }
@@ -61,4 +110,17 @@ nav.md-nav.md-nav--secondary {
       }
     }
   }
+  .portfolio-overview {
+    flex-direction: column;
+    max-width: 95%;
+    .portfolio-overview-item {
+      width: 75%;
+      height: 75%;
+
+      h2 {
+        font-size: 2vw;
+      }
+    }
+  }
 }
+

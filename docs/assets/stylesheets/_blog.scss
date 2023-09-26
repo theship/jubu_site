@@ -1,0 +1,26 @@
+h1#blog {
+    display: none;
+}
+
+.blog-summary{
+    font-style: italic;
+    font-size: medium;
+    line-height: normal;
+    color: white;
+    margin: 0.25vh 5vw 3vh 0;
+    padding: 0.5vh 2vw;
+    border: 0.5px solid #526CFF;
+    border-radius: 10px;
+    background: linear-gradient(45deg, #303fa1 0%, #526CFF 100%);
+}
+
+.blog-callout {
+    margin: 0.25vh 10vw 3vh 5vw;
+    border: 0.5px solid mediumpurple;
+    border-radius: 10px;
+    background: linear-gradient(45deg, indigo 0%, mediumpurple 100%);
+}
+
+.md-sidebar__scrollwrap {
+    max-width: 15vw;
+}

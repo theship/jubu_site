@@ -1,5 +1,6 @@
-@import "no-sidebar";
+@import "sidebar-as-row";
 @import "portfolio";
+@import "blog";
 
 .mdx-hero {
     box-sizing: inherit;
@@ -20,3 +21,4 @@
     color: var(--md-code-hl-special-color);
     font-weight: lighter;
 }
+
