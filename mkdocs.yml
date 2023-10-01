@@ -79,6 +79,7 @@ theme:
 
 # Plugins
 plugins:
+  - blog
   - search:
       separator: '[\s\-,:!=\[\]()"`/]+|\.(?!\d)|&[lg]t;|(?!\b)(?=[A-Z][a-z])'
   - minify:
@@ -163,3 +164,5 @@ nav:
     - "Social Impact": portfolio/abevy-making-social-impact.md
     - "Frontend Tooling": portfolio/viscira-life-science-in-action.md
     - "Developer Focus": portfolio/adobe-developer-focused.md
+  - Blog:
+    - blog/index.md
