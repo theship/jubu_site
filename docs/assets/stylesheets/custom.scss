@@ -2,21 +2,6 @@
 @import "portfolio";
 @import "blog";
 
-.mdx-hero {
-    box-sizing: inherit;
-    position: relative;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    &__image {
-        max-width: 50%;
-    }
-    &__content {
-        padding: 5%;
-        margin-top: -5%;
-    }
-}
-
 .md-typeset h3 {
     color: var(--md-code-hl-special-color);
     font-weight: lighter;
