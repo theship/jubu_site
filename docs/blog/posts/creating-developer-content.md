@@ -23,7 +23,7 @@ The best developer content comes from pulling together all of the expertise and 
 
 In startups, the first content created for developers is usually an interface specification. Without this content there is no interface. Without this programmatic knowledge, discovery is a matter of querying and guessing. Engineers know this and are ready to document their programming interfaces at the source.
 
-The next content often developed in the startup comes from a product manager. This manager should know the market, the user, and has set the requirements for the engineering team. Team. They also have presentation skills that allow them to create content. This content is often limited to the system required by the product manager, however. Their experience is in the product, not in usage workflows.
+The next content often developed in the startup comes from a product manager. This manager should know the market, the user, and has set the requirements for the engineering team. They also have presentation skills that allow them to create content. This content is often limited to the system required by the product manager, however. Their experience is in the product, not in usage workflows.
 
 Often, sales engineers and professional services folks are working away unbeknownst to colleagues who want to raise the visibility of internal expertise. They have a lot of expertise. For a couple of reasons, this knowledge does not translate into content. One reason is because they are so busy creating collateral for individual customers. An even more insidious misunderstanding is behind this fallow knowledge: a concern with leaking intellectual property, trade secrets, and proprietary processes, all of which should not be given away for free.
 
@@ -52,7 +52,7 @@ So should a startup begin their content journey by devoting the highest resource
 * content infrastructure
 * content pipeline automation
 
-Note the big mistake a startup often makes is to hire a content strategist. This is because the money starts flowing to marketing and sales folks. They have the budgetary influence and an urgent need: explain our offerings or folks won't know they want it. Their understanding of content, however, stops at a cursory level of a technical buyer. While this target audience may have domain knowledge of their vertical, they do not need details required to complete successful, production-quality output. The content strategist is usually hired to get everything in the right structure to walk a visitor through offerings and sales funnels. There’s a faulty overloading of the term “content”, here. (Due to an interesting history of market forces, content strategy has not become a corollary to technical strategy.) There are exceptional content strategists whose hire may result in a worthy ROI, but they are usually hired as _marketing_ content specialists. Their expertise is not in developing a framework for the extraction of knowledge for reuse.
+Note the big mistake a startup often makes is to hire a content strategist first. This is because the money starts flowing to marketing and sales folks. They have the budgetary influence and an urgent need: explain our offerings or folks won't know they want it. Their understanding of content, however, stops at a cursory level of a technical buyer. While this target audience may have domain knowledge of their vertical, they do not need details required to complete successful, production-quality output. The content strategist is usually hired to get everything in the right structure to walk a visitor through offerings and sales funnels. There’s a faulty overloading of the term “content”, here. (Due to an interesting history of market forces, content strategy has not become a corollary to technical strategy.) There are exceptional content strategists whose hire may result in a worthy ROI, but they are usually hired as _marketing_ content specialists. Their expertise is not in developing a framework for the extraction of knowledge for reuse.
 
 ## Bootstrapping content engineering
 
@@ -64,7 +64,7 @@ In San Francisco, we have a lot of four-way stops instead of lights with long wa
 
 OK, let’s presume the startup will succeed—because otherwise, what’s the point? You may have heard developers say something along the lines of, “I’m going to write this code for the future me, who will be coming back in two years to fix a bug.” Whatever knowledge we produce today, presume someone will be returning to it in a couple of years. If every individual knowledge producer had that mindset, a lot of foundational structure would become institutional knowledge. And that’s basically the culture you want to nurture from the first day of your startup. All individuals in your organization should know you’re going to succeed—and continued success means preserving knowledge.
 
-Operationally, you’ll want to set up some knowledge-preservation practices, even before you even hire someone to pull together all of the expertise and institutional knowledge. Here are a few examples of best practices:
+Operationally, you’ll want to set up some knowledge-preservation practices, even before you hire someone to pull together all of the expertise and institutional knowledge. Here are a few examples of best practices:
 
 ### Transparency, by default
 
@@ -105,7 +105,9 @@ You don’t need a complicated style guide or voice and tone brief. But socializ
 
 ### Begin a knowledge graph
 
-Even an abandoned knowledge graph can help future collaborators understand what came before: why was this feature designed with that model, how did two systems work together at first, which code name was the precursor to which product name? Somewhere in the organization should be a graphical representation of the important components of the vision and the results. Have fun proposing an ontology, just don't become like the sub-sub-librarian in Moby Dick.
+Even an abandoned knowledge graph can help future collaborators understand what came before: why was this feature designed with that model? How did two systems work together at first? Which code name was the precursor to which product name? Somewhere in the organization should be a graphical representation of the important components of the vision and the results. Have fun proposing an ontology, like the sub-sub-librarian in Moby Dick caught, but don't get caught in constructing perfect taxonomies.
+
+Knowledge graphs can be fed to LLMs. LLMs can generate them. And iteration of both ML and human curation can improve the quality of your content.
 
 ## Summary
 

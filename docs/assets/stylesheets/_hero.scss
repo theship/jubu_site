@@ -1,10 +1,19 @@
 
 // Landing page hero
 .mdx-hero {
+  box-sizing: inherit;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 
-    // Hero image
-    &__image {
-      order: 1;
-    }
+  &__image {
+    max-width: 50%;
+    order: 1;
+  }
 
+  &__content {
+    padding: 5%;
+    margin-top: -5%;
+  }
 }

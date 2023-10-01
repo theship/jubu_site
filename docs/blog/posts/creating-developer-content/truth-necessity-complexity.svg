@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 27.9.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 770.4 781.4" style="enable-background:new 0 0 770.4 781.4;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:url(#SVGID_1_);stroke:#000000;stroke-width:0.25;stroke-miterlimit:10;}
+	.st1{font-family:'MyriadPro-Cond';}
+	.st2{font-size:64px;}
+	
+		.st3{fill:url(#SVGID_00000110445974997838483030000002062377309403012010_);stroke:#000000;stroke-width:0.25;stroke-miterlimit:10;}
+	
+		.st4{fill:url(#SVGID_00000077311475615299616120000012129726930145844134_);stroke:#000000;stroke-width:0.25;stroke-miterlimit:10;}
+</style>
+<g id="Layer_1_00000099644470974079931890000015915239432857241512_">
+	
+		<linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="75.9843" y1="1429.2656" x2="442.2657" y2="1062.9844" gradientTransform="matrix(1 0 0 -1 0 1768.45)">
+		<stop  offset="0" style="stop-color:#DF98FA"/>
+		<stop  offset="1" style="stop-color:#9055FF"/>
+	</linearGradient>
+	<circle class="st0" cx="259.1" cy="522.3" r="259"/>
+	<text transform="matrix(1 0 0 1 83.0505 641.0801)" class="st1 st2">Necessity</text>
+</g>
+<g id="Layer_2_00000147909406998069775210000005547034769972854966_">
+	
+		<linearGradient id="SVGID_00000094603571262661521440000017264924317015153336_" gradientUnits="userSpaceOnUse" x1="147.9843" y1="1692.4656" x2="514.2657" y2="1326.1843" gradientTransform="matrix(1 0 0 -1 0 1768.45)">
+		<stop  offset="0" style="stop-color:#FA7CBB"/>
+		<stop  offset="1" style="stop-color:#F14658"/>
+	</linearGradient>
+	
+		<circle style="fill:url(#SVGID_00000094603571262661521440000017264924317015153336_);stroke:#000000;stroke-width:0.25;stroke-miterlimit:10;" cx="331.1" cy="259.1" r="259"/>
+	<text id="Truth" transform="matrix(1 0 0 1 160.2612 177.8824)" class="st1 st2">Truth</text>
+</g>
+<g id="Layer_3">
+	
+		<linearGradient id="SVGID_00000171696827968960705620000017820949747501274291_" gradientUnits="userSpaceOnUse" x1="328.0843" y1="1560.8656" x2="694.3657" y2="1194.5844" gradientTransform="matrix(1 0 0 -1 0 1768.45)">
+		<stop  offset="0" style="stop-color:#FAD6A6"/>
+		<stop  offset="0.9988" style="stop-color:#F08B66"/>
+	</linearGradient>
+	
+		<circle style="fill:url(#SVGID_00000171696827968960705620000017820949747501274291_);stroke:#000000;stroke-width:0.25;stroke-miterlimit:10;" cx="511.2" cy="390.7" r="259"/>
+	<text id="Complexity" transform="matrix(1 0 0 1 448.8365 419.4813)" class="st1 st2">Complexity</text>
+</g>
+</svg>
