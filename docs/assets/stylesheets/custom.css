@@ -179,6 +179,22 @@ section.portfolio-container .md-grid .mdx-spotlight__feature img {
   padding-right: 10vw;
 }
 
+.mdx-hero {
+  box-sizing: inherit;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.mdx-hero__image {
+  max-width: 50%;
+  order: 1;
+}
+.mdx-hero__content {
+  padding: 5%;
+  margin-top: -5%;
+}
+
 .md-typeset h3 {
   color: var(--md-code-hl-special-color);
   font-weight: lighter;

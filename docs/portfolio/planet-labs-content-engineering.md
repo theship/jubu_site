@@ -59,7 +59,7 @@
       </a>
       <figcaption class="md-typeset">
         <h2><strong>Critical content</strong> in code examples</h2>
-        <p>Planetary Variables through Planet Subscriptions API were new offerings for a new target audience. I prioritized code examples as the first content to produce. This provided several benefits. Early on, I was able to give the development team feedback based on my experience. Then, when it came to writing the user guide content, I was already familiar with using the RestFUL API and specialized libraries. Finally, we delivered code in the form of Python Notebooks that provided the templates for quickly transmiting data and beginning analysis.
+        <p>Planetary Variables through Planet Subscriptions API were new offerings for a new target audience. I prioritized code examples as the first content to produce. This provided several benefits. Early on, I was able to give the development team feedback based on my experience. When it came to writing the user guide content, I was already familiar with using the RestFUL API and specialized libraries. Finally, we delivered code in the form of Python Notebooks that provided the templates for quickly transmiting data and beginning analysis.
         </p>
         <ul>
           <li>Wrote Python Notebooks demonstrating API for <a href="https://github.com/planetlabs/notebooks/blob/master/jupyter-notebooks/subscriptions_api_tutorial/Biomass_Proxy_PV_Subs_Ohio.ipynb"
