@@ -15,5 +15,15 @@
   &__content {
     padding: 5%;
     margin-top: -5%;
+    a.md-button {
+      min-width: 10vw;
+      font-weight: normal;
+      border: 0.5px solid;
+      cursor: default;
+      text-align: center;
+      @media screen and (max-width: 48rem) {
+        min-width: 35vw;
+      }
+    }
   }
 }
