@@ -1,3 +1,12 @@
+<style>
+.md-sidebar.md-sidebar--primary {
+  display: block;
+  position: relative;
+  padding: 0;
+  margin: -5vw 0 5vw 2vw;
+}
+</style>
+
 <section class="portfolio-container" data-md-color-scheme="default">
   <div class="md-content md-grid" data-md-component="content">
   <div class="md-content__inner">

@@ -1,3 +1,12 @@
+<style>
+.md-sidebar.md-sidebar--primary {
+  display: block;
+  position: relative;
+  padding: 0;
+  margin: -5vw 0 5vw 2vw;
+}
+</style>
+
 <section class="portfolio-container" data-md-color-scheme="default">
   <div class="md-content md-grid" data-md-component="content">
   <div class="md-content__inner">
@@ -21,7 +30,7 @@
     <figure class="mdx-spotlight__feature">
       <img src="/assets/images/portfolio/CSS-dat-viz-closeup.png" alt="Interactive comparison of flu vaccinations for healthcare providers" loading="lazy" width="500">
       <figcaption class="md-typeset">
-        <h2><strong>Lightweight implementations</strong> with appropriate tech stack</h2>
+        <h2><strong>Lightweight implementation</strong> with appropriate tech stack</h2>
         <p>Another example of an interactive hybrid app, I challenged myself to provide components with the most efficient tools in this comparison of vaccine efficacy.
         </p>
         <ul>
@@ -36,7 +45,7 @@
       <img src="/assets/images/portfolio/compliance.jpg" alt="compliance, regulations, guidelines" loading="lazy" width="500">
       <figcaption class="md-typeset">
         <h2><strong>Regulations compliance</strong>, conforming to specifications, and following style guides</h2>
-        <p>Detailed attention was required: from data retention rules of HIPAA to font size on pharmaceutical advertisements of the FDA, regulations protect the consumer, reader, and user. The contextual landscape for creation always has a legal component, especially when dealing with components such as a dosing calculator.</p>
+        <p>Detailed attention includes considering regulations that protect the consumer, reader, and user. Content creation always has a legal component, especially when dealing with components such as a dosing calculator. From the personally-identifiable information rules of HIPAA, through the data retention policy of GDPR, to the font size on pharmaceutical advertisements of the FDA, and on, content lifecycle requires consideration and care.</p>
       </figcaption>
     </figure>
   </div>

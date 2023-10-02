@@ -1,26 +1,24 @@
 // No sidebar ToC
 // https: //github.com/squidfunk/mkdocs-material/issues/478#issuecomment-336447257
 
-.md-sidebar--primary {
-  display: none;
-}
+// Sidebars are set to display none in custom.scss
+// This sidebar is a row of links
+// To display this, set the sidebar to display block in the 
+// page-specific *.md file, as in the following example:
+// <style>
+// .md-sidebar--primary {
+//   display: block;
+//   position: relative;
+//   padding: 0;
+//   margin: -5vw 0 5vw 2vw;
+// }
+// </style>
 
 @media only screen and (min-width: 60em) {
   .md-content {
     margin-right: 0;
     padding-top: 5vh;
   }
-}
-
-.md-sidebar.md-sidebar--secondary {
-  display: none;
-}
-
-.md-sidebar--primary {
-  display: block;
-  position: relative;
-  padding: 0;
-  margin: -5vw 0 5vw 2vw;
 }
 
 .md-sidebar__scrollwrap {
@@ -40,13 +38,31 @@ nav.md-nav.md-nav--primary.md-nav--lifted {
 
 .md-sidebar__inner {
   width: 85vw;
+  a.md-nav__link {
+    color: var(--md-code-hl-special-color);
+    font-weight: lighter;
+    &:hover {
+      color: var(--md-primary-fg-color);
+    }
+    &--active {
+      color: var(--md-code-fg-color);
+    }
+    
+  }
 }
 
 ul.md-nav__list {
   display: flex;
   flex-direction: row;
   font-variant-caps: all-small-caps;
+  color: var(--md-code-hl-special-color);
+  font-weight: lighter;
+  &:hover {
+      color: var(--md-code-fg-color);
+  }
 }
+
+
 
 .md-main__inner {
   display: flex;
@@ -54,3 +70,8 @@ ul.md-nav__list {
   margin-top: 1.5rem;
   flex-direction: column;
 }
+
+div.md-sidebar.md-sidebar--primary>div>div>nav>ul>li.md-nav__item.md-nav__item--active.md-nav__item--nested>div>a>span {
+  display: none;
+}
+

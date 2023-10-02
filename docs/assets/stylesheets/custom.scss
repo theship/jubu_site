@@ -1,9 +1,15 @@
 @import "sidebar-as-row";
 @import "portfolio";
-@import "blog";
+@import "resume";
 
 .md-typeset h3 {
     color: var(--md-code-hl-special-color);
     font-weight: lighter;
 }
 
+.md-sidebar.md-sidebar--primary {
+    display: none;
+}
+.md-sidebar.md-sidebar--secondary {
+    display: none;
+}
