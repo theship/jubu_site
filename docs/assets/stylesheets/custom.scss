@@ -14,3 +14,9 @@
 .md-sidebar.md-sidebar--secondary {
     display: none;
 }
+
+@media screen and (max-width: 1219px) {
+    .md-sidebar.md-sidebar--primary {
+        display: block;
+    }
+}

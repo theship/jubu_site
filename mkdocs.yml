@@ -96,18 +96,24 @@ extra:
     provider: google
     property: !ENV GOOGLE_ANALYTICS_KEY
   social:
+    - icon: fontawesome/brands/linkedin
+      link: https://www.linkedin.com/in/jburdekin/
+    - icon: fontawesome/brands/medium
+      link: https://pequodcapt.medium.com/
     - icon: fontawesome/brands/github
-      link: https://github.com/squidfunk
-    - icon: fontawesome/brands/gitter
-      link: https://gitter.im/squidfunk/mkdocs-material
-    - icon: fontawesome/brands/docker
-      link: https://hub.docker.com/r/squidfunk/mkdocs-material/
-    - icon: fontawesome/brands/python
-      link: https://pypi.org/project/mkdocs-material/
+      link: https://github.com/theship
+    - icon: fontawesome/brands/instagram
+      link: https://www.instagram.com/pequodcapt/
+    - icon: fontawesome/brands/stack-overflow
+      link: https://stackoverflow.com/users/4233413/theship
+    - icon: fontawesome/brands/codepen
+      link: https://codepen.io/theship
+    - icon: fontawesome/brands/connectdevelop
+      link: https://devpost.com/theship
     - icon: fontawesome/brands/mastodon
-      link: https://fosstodon.org/@squidfunk
-    - icon: fontawesome/brands/twitter
-      link: https://twitter.com/squidfunk
+      link: https://tech.lgbt/@julee
+
+
 
 extra_css:
   - "docs/assets/css/custom.css"
