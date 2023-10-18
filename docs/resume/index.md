@@ -4,6 +4,8 @@ title: Resume
 
 # Resume {#resume-h1}
 
+![Julee Burdekin at Work](../assets/images/resume/julee-burdekin-at-work.png){: width=" 100vw"}
+
 ## Summary
 
 !!!tip inline end "LinkedIn"
@@ -11,6 +13,7 @@ title: Resume
     For a detailed view of my endeavors, see my [linkedin.com/in/jburdekin](https://www.linkedin.com/in/jburdekin/){:target="_blank"} profile.
 
 Experienced technologist and strategic leader with a proven track record in product documentation, developer relations, and technical design across industry-leading organizations. Adept at managing teams, advocating for content, and fostering cross-functional collaboration while driving innovation and operational excellence.
+
 
 ## Experience
 
