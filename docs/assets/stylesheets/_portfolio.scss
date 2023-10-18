@@ -48,7 +48,7 @@ section.portfolio-container {
 
       &__feature img {
         height: fit-content;
-        max-width: 33%;
+        max-width: 100%;
       }
     }
   }
@@ -97,7 +97,7 @@ section.portfolio-container {
   }
 }
 
-@media screen and (max-width: 48rem) {
+@media screen and (max-width: 1023px) {
   section.portfolio-container {
     width: 95%;
 
@@ -139,7 +139,7 @@ section.portfolio-container {
   }
 }
 
-@media only screen and (min-width: 60em) {
+@media only screen and (min-width: 1024px) {
   .md-content {
     margin-right: 0;
   }

@@ -23,7 +23,7 @@ Experienced technologist and strategic leader with a proven track record in prod
 
 ##### 2017 - Present
 
-Our mission is to improve civic and employment opportunities through community building, and shared technology and information. We're a benefit corporation where I:
+Our mission is to improve civic engagement and employment opportunities through community building, and shared technology and information. We're a benefit corporation where I:
 
 * Manage and develop the frontend presentation layer
 * Develop narratives for early adopters and influencers

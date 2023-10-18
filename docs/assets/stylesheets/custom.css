@@ -104,7 +104,7 @@ section.portfolio-container .md-grid .mdx-spotlight__feature figcaption.md-types
 }
 section.portfolio-container .md-grid .mdx-spotlight__feature img {
   height: fit-content;
-  max-width: 33%;
+  max-width: 100%;
 }
 
 .portfolio-overview {
@@ -150,7 +150,7 @@ section.portfolio-container .md-grid .mdx-spotlight__feature img {
   max-height: 66%;
 }
 
-@media screen and (max-width: 48rem) {
+@media screen and (max-width: 1023px) {
   section.portfolio-container {
     width: 95%;
   }
@@ -185,7 +185,7 @@ section.portfolio-container .md-grid .mdx-spotlight__feature img {
     font-size: 2vw;
   }
 }
-@media only screen and (min-width: 60em) {
+@media only screen and (min-width: 1024px) {
   .md-content {
     margin-right: 0;
   }
