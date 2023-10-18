@@ -171,7 +171,7 @@ section.portfolio-container .md-grid .mdx-spotlight__feature img {
     margin-left: 1em;
   }
   section.portfolio-container .md-grid .mdx-spotlight__feature figcaption.md-typeset {
-    max-width: revert;
+    max-width: 100%;
   }
   .portfolio-overview {
     flex-direction: column;
