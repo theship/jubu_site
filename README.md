@@ -2,6 +2,14 @@
 
 Built with [mkdocs-material](https://github.com/squidfunk/mkdocs-material)
 
+## install
+
+```
+python -m venv .venv
+source .venv/bin/activate
+pip install -r /path/to/requirements.txt
+```
+
 ## Overrides
 
 Custom overrides are in `docs/.overrides`

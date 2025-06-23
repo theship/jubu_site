@@ -98,12 +98,14 @@ extra:
   social:
     - icon: fontawesome/brands/linkedin
       link: https://www.linkedin.com/in/jburdekin/
-    - icon: fontawesome/brands/medium
-      link: https://pequodcapt.medium.com/
+    - icon: fontawesome/solid/ghost
+      link: https://gnowledge-karden.ghost.io/
     - icon: fontawesome/brands/github
       link: https://github.com/theship
     - icon: fontawesome/brands/instagram
       link: https://www.instagram.com/pequodcapt/
+    - icon: fontawesome/brands/bluesky
+      link: https://bsky.app/profile/pequodcapt.bsky.social
     - icon: fontawesome/brands/stack-overflow
       link: https://stackoverflow.com/users/4233413/theship
     - icon: fontawesome/brands/codepen
@@ -133,8 +135,8 @@ markdown_extensions:
   - pymdownx.caret
   - pymdownx.details
   - pymdownx.emoji:
-      emoji_generator: !!python/name:materialx.emoji.to_svg
-      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
   - pymdownx.highlight:
       anchor_linenums: true
       line_spans: __span

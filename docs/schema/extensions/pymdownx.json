@@ -172,7 +172,7 @@
                 },
                 "emoji_index": {
                   "markdownDescription": "https://squidfunk.github.io/mkdocs-material/setup/extensions/python-markdown-extensions/#+pymdownx.emoji.emoji_index",
-                  "default": "!!python/name:materialx.emoji.twemoji"
+                  "default": "!!python/name:material.extensions.emoji.twemoji"
                 },
                 "options": {
                   "markdownDescription": "https://squidfunk.github.io/mkdocs-material/setup/extensions/python-markdown-extensions/#+pymdownx.emoji.options.custom_icons",
