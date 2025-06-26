@@ -12,24 +12,17 @@ title: Resume
 
     For a detailed view of my endeavors, see my [linkedin.com/in/jburdekin](https://www.linkedin.com/in/jburdekin/){:target="_blank"} profile.
 
-Experienced technologist and strategic leader with a proven track record in product documentation, developer relations, and technical design across industry-leading organizations. Adept at managing teams, advocating for content, and fostering cross-functional collaboration while driving innovation and operational excellence.
-
+Technologist and strategic leader with a proven performance history in content development and engineering, developer relations, and technical design across industry-leading organizations. Excellent at managing teams, advocating for content experience, and championing cross-functional collaboration while driving innovation and operational excellence.
 
 ## Experience
 
-### Founder & CEO
+### Technical Content Engineer
 
-#### Abevy, Inc
+#### Geospan, Inc.
 
-##### 2017 - Present
+##### August 2024 - Present
 
-Our mission is to improve civic engagement and employment opportunities through community building, and shared technology and information. We're a benefit corporation where I:
-
-* Manage and develop the frontend presentation layer
-* Develop narratives for early adopters and influencers
-* Implement content solutions
-* Direct operational strategies
-* Mentor engineers in strategic priorities and management
+Leading content engineering and strategy for new engineering team. Writing developer documentation and code examples in Python and JavaScript frameworks. Mentoring leadership and engineers in knowledge systems, information architecture, and content operations. Built first-generation developer docs, Postman collections, and Hugo CMS redesign while implementing HubSpot Knowledge Base and launching internal developer experience.
 
 ### Head of Developer Relations
 
@@ -37,12 +30,15 @@ Our mission is to improve civic engagement and employment opportunities through 
 
 ##### October 2021 - October 2023
 
-Planet’s satellite data powers decision-making in industries including agriculture, forestry, mapping, and government. Beginning as a content developer, I now:
+Scaled from Developer Relations content developer to Head of Developer Relations. Led development of Planet SDK and CLI for Python while managing platform content systems and publication channels. Built knowledge systems serving agriculture, forestry, and government sectors through remote sensing, GIS, geospatial data platform.
 
-* Oversee platform content creation and management
-* Lead information architecture, content strategy, and content engineering for core content
-* Work with product design, management, and marketing on feature and content release
-* Program the development of the Planet SDK and CLI for Python
+### Founder & CEO
+
+#### Abevy, Inc
+
+##### 2017 - June 2024
+
+This benefit corporation provided technical forums for older women and their supporters. Identified and developed new product prototypes based on real-life problems. Set corporate strategy and operational frameworks while managing presentation layers and content for product releases. Planned and assembled skills-based teams within inclusive culture.
 
 ### Senior Web Developer & Technical Lead
 
@@ -50,8 +46,7 @@ Planet’s satellite data powers decision-making in industries including agricul
 
 ##### October 2016 - February 2019
 
-* Worked on web and mobile development projects, emphasizing interfaces and user experiences
-* Trained development and technical design teams.
+Developed frontend experiences and mobile media communication solutions for life sciences and pharmaceutical clients. Led web and mobile development teams while delivering rapid development solutions using modern web stack (Angular, React, D3, GSAP, Bootstrap). Specialized in responsive web applications, data visualization, and Salesforce Lightning platform development.
 
 ### Senior Editorial Manager & Content Strategist
 
@@ -59,10 +54,15 @@ Planet’s satellite data powers decision-making in industries including agricul
 
 ##### July 2000 - March 2015
 
-* Set strategy for Flash and web platform developer content
-* Developed and launched syndicated platform content
-* Managed a team focused on quality and user-focused content
-* Engaged with frontend designers and developers through developer relations
+Led content strategy for Adobe's web platform. Built data pipelines with SQL, Hadoop, Hive, and NLTK. Served as W3C Steward Representative for global developer knowledge systems.
+
+Launched web standards content experiences and managed expert contributor networks. Built developer communities around Adobe web technologies.
+
+Created predictive dashboard analyzing developer pain points through behavioral/sentiment metrics. Led technical analysis of CRMs and knowledge bases, implementing SEO optimization and Experience Manager integrations. Product managed ActionScript Reference platform.
+
+Managed teams producing ActionScript/JavaScript frameworks for AIR and Flash Platform. Directed cross-functional delivery into Flex, Flash Professional, and SaaS products while building content workflow systems.
+
+At Macromedia (acquired by Adobe 2006), led documentation architecture for Dreamweaver, Flash, ActionScript, and Flash Media Server. Managed writer/developer teams, established content standards, and implemented automated tooling (Doxygen, ASDoc). Introduced automation tools and guided ASDoc roadmap development.
 
 ### Lead Writer
 
@@ -70,8 +70,7 @@ Planet’s satellite data powers decision-making in industries including agricul
 
 ##### 1995 - 2000
 
-* Developed UI content, and wrote help manuals, online help, and programmatic interface documentation
-* Managed cross-functional teams in the delivery of UI, UX, and content
+Led API documentation teams for cryptographic security products. Managed cross-functional teams including engineers and developer support, creating comprehensive documentation for certificate servers and desktop security software.
 
 ## Education
 
