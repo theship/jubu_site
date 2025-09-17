@@ -1,0 +1,127 @@
+skill,category,aliases,tags
+Python,Programming Languages,python3|py,backend|scripting|data
+JavaScript,Programming Languages,js|ecmascript|es6,frontend|web|node
+TypeScript,Programming Languages,ts,types|frontend|fullstack
+SQL,Programming Languages,sql92|ansi-sql,database|queries|etl
+HTML,Programming Languages,html5,markup|web|frontend
+CSS,Programming Languages,css3,styles|web|frontend
+ActionScript,Programming Languages,as3|actionscript3,adobe|language|legacy
+Bash,Programming Languages,shell|sh,scripting|cli|devops
+JSON,Programming Languages,json5,data|serialization|web
+YAML,Programming Languages,yml,config|serialization|devops
+React,Frameworks & Libraries,reactjs|react.js,frontend|spa|ui
+Next.js,Frameworks & Libraries,nextjs|next,react|ssr|ssg
+Angular,Frameworks & Libraries,angularjs|ng,frontend|spa|enterprise
+D3.js,Frameworks & Libraries,d3,dataviz|svg|charts
+GSAP,Frameworks & Libraries,greensock,animation|web|ui
+Bootstrap,Frameworks & Libraries,twitter-bootstrap,css|ui|components
+Recharts,Frameworks & Libraries,rechartsjs,charts|react|dataviz
+Leaflet,Frameworks & Libraries,leafletjs,maps|gis|web
+Mapbox GL JS,Frameworks & Libraries,mapbox|mapbox-gl,maps|gis|tiles
+FastAPI,Frameworks & Libraries,fastapi,apis|python|web
+Pydantic,Frameworks & Libraries,pydantic2|pydantic-v2,validation|models|python
+SQLAlchemy,Frameworks & Libraries,sqlalchemy,orm|database|python
+Alembic,Frameworks & Libraries,alembic,migrations|database|python
+Pytest,Frameworks & Libraries,pytest,testing|python|unit-tests
+Playwright,Testing & QA,playwright,e2e|testing|browser
+Puppeteer,Testing & QA,puppeteer,e2e|testing|browser
+Postman,API & Docs,postman,api|testing|collections
+OpenAPI/Swagger,API & Docs,openapi|swagger,api|schema|documentation
+MkDocs Material,API & Docs,mkdocs|material-for-mkdocs,docs|site|static
+Hugo,API & Docs,hugo,static-site|docs|generator
+Hugo Relearn,API & Docs,hugo-theme-relearn|relearn,docs|theme|hugo
+Ghost,API & Docs,ghost,blog|cms|publishing
+HubSpot Knowledge Base,API & Docs,hubspot|hubspot-kb,cms|kb|publishing
+Salesforce Lightning,API & Docs,lightning|lwc,salesforce|ui|platform
+Adobe Experience Manager (AEM),API & Docs,aem|adobe-experience-manager,cms|enterprise|content
+ASDoc,API & Docs,asdoc,docs|actionscript|generator
+Doxygen,API & Docs,doxygen,docs|code|generator
+Git,DevOps & Infrastructure,git,vcs|version-control|scm
+GitHub,DevOps & Infrastructure,github,vcs|hosting|collaboration
+GitLab,DevOps & Infrastructure,gitlab,vcs|ci|collaboration
+GitHub Actions,DevOps & Infrastructure,github-actions,ci|cd|automation
+GitLab CI/CD,DevOps & Infrastructure,gitlab-ci|gitlab-pipelines,ci|cd|automation
+Docker,DevOps & Infrastructure,docker,containers|dev|deploy
+Make,DevOps & Infrastructure,make|makefile,build|automation|tooling
+Redis,DevOps & Infrastructure,redis,cache|queue|pubsub
+PostgreSQL,Databases & Storage,postgres|postgresql,database|relational|sql
+pgvector,Databases & Storage,pgvector,embeddings|vector|postgres
+Supabase,Databases & Storage,supabase,backend|auth|db
+Google Cloud Run,Cloud & Platforms,cloud-run|gcrun,serverless|gcp|containers
+Google Cloud SQL,Cloud & Platforms,cloud-sql|gcp-sql,database|gcp|postgres
+Descope,Cloud & Platforms,descope,auth|idm|login
+OneSignal,Cloud & Platforms,onesignal,push|notifications|messaging
+Planet SDK (Python),Geospatial & Remote Sensing,planet|planet-sdk-py,remote-sensing|api|imagery
+Planet CLI,Geospatial & Remote Sensing,planet-cli,remote-sensing|tools|imagery
+GIS,Geospatial & Remote Sensing,gis,geospatial|mapping|analysis
+Remote Sensing,Geospatial & Remote Sensing,remote-sensing,satellite|imagery|earth-observation
+Sentinel-2,Geospatial & Remote Sensing,sentinel2,esa|multispectral|imagery
+GeoJSON,Geospatial & Remote Sensing,geojson,gis|data-format|features
+Hadoop,Data & ML,hadoop,big-data|mapreduce|cluster
+Hive,Data & ML,hive|apache-hive,sql|warehouse|big-data
+NLTK,Data & ML,nltk,nlp|python|text
+Weights & Biases (wandb),Data & ML,wandb|weights-and-biases,mlops|experiments|tracking
+Weave,Data & ML,weave,tracing|observability|llm
+OpenAI API,Data & ML,openai,llm|genai|apis
+Row Level Security (RLS),Security & Auth,rls|postgres-rls,security|db|isolation
+OAuth 2.0,Security & Auth,oauth2,auth|security|flows
+MSAL,Security & Auth,msal,auth|oauth|microsoft
+Microsoft Graph API,Platforms & Integrations,microsoft-graph|graph-api,sharepoint|office365|api
+SharePoint API,Platforms & Integrations,sharepoint-rest|sharepoint-graph,content|kb|documents
+W3C Standards,Standards & Governance,w3c,web-standards|governance|specs
+HTML5,Standards & Governance,html5,web|markup|standards
+CSS3,Standards & Governance,css3,web|styles|standards
+Information Architecture,Content & DevEx,ia|info-architecture,content|ux|structure
+Content Engineering,Content & DevEx,content-engineering,docs|pipelines|governance
+Developer Relations,Content & DevEx,devrel|developer-advocacy,community|content|education
+API Documentation,Content & DevEx,api-docs,docs|devex|reference
+Knowledge Systems,Content & DevEx,knowledge-systems,taxonomy|governance|ops
+Taxonomy Design,Content & DevEx,taxonomy,metadata|ontology|classification
+Data Pipelines,Content & DevEx,data-pipelines,etl|elt|workflow
+Experiment Tracking,Content & DevEx,experiment-tracking,mlops|wandb|evals
+SEO,Content & DevEx,seo|search-engine-optimization,search|content|growth
+Dreamweaver,Legacy & History,dreamweaver,tools|adobe|web
+Flash,Legacy & History,flash,multimedia|adobe|runtime
+Flash Media Server,Legacy & History,fms|flash-media-server,streaming|adobe|server
+Product Management,Product Management,product-mgmt|pm,roadmap|discovery|prioritization|delivery
+Roadmapping,Product Management,product roadmap|quarterly planning,prioritization|strategy|planning
+Product Strategy,Product Management,strategy docs|north star,vision|kpis|themes
+PRD Writing,Product Management,product requirements|prds,specs|acceptance-criteria|alignment
+Customer Discovery,Product Management,user interviews|problem discovery,research|validation|mvp
+MVP Development,Product Management,minimum viable product|prototype,lean|experimentation|iteration
+API Product Management,Product Management,api pm|platform pm,sdk|developer-experience|platform
+Documentation-as-Product,Product Management,docs-as-code|doc productization,versioning|quality|metrics
+Product Analytics,Product Management,kpi dashboards|instrumentation,metrics|telemetry|insights
+Developer Experience Strategy,Product Management,devex strategy|dx strategy,sdk|docs|tooling
+Program Management,Program Management,pgm|program-mgmt,portfolio|governance|delivery
+Project Management,Program Management,proj-mgmt|pmgt,schedule|scope|budget
+Cross-functional Leadership,Program Management,xfn leadership|matrix mgmt,alignment|communication|collaboration
+Risk Management,Program Management,raid logs|risk mitigation,risk|dependency|contingency
+Dependency Management,Program Management,critical path|blockers,planning|xfn|delivery
+Agile Methodologies,Program Management,scrum|kanban,process|iteration|ceremonies
+Change Management,Program Management,rollouts|enablement,adoption|training|communications
+OKRs & KPIs,Program Management,okrs|kpis,goals|measurement|outcomes
+Team Leadership,People Management,people mgmt|team lead,coaching|growth|delivery
+Mentorship & Coaching,People Management,mentoring|coaching,career|skills|feedback
+Hiring & Team Building,People Management,recruiting|team assembly,interviews|onboarding|skills-based
+Inclusive Culture,People Management,dei|inclusive leadership,equity|culture|belonging
+Corporate Strategy,Leadership & Strategy,strategy|operating model,planning|frameworks|execution
+Knowledge Systems Strategy,Leadership & Strategy,semantic infrastructure|info-architecture strategy,governance|metadata|scalability
+AI/ML Strategy,Leadership & Strategy,genai strategy|ml strategy,experimentation|evaluation|risk
+Go-To-Market Strategy,Leadership & Strategy,gtm|launch strategy,positioning|channels|enablement
+Community Strategy,Leadership & Strategy,developer programs|ecosystem strategy,growth|advocacy|engagement
+Founder/CEO Experience,Entrepreneurship,founder|ceo,venture|leadership|operating
+Lean Startup,Entrepreneurship,lean|hypothesis testing,mvp|iteration|learning
+Fundraising (SAFE),Entrepreneurship,safe notes|pre-seed,financing|cap-table|term-sheet
+Social Impact Strategy,Entrepreneurship,benefit corp|public good,mission|ethics|stakeholders
+Process Design & SOPs,Operations,standard operating procedures|process engineering,scalability|quality|repeatability
+Content Operations,Operations,doc ops|editorial ops,workflow|governance|publishing
+Knowledge Base Operations,Operations,kb ops|hubspot kb,cms|publishing|support
+CMS Migration & Integration,Operations,aem to hubspot|hugo to hubspot,migration|integration|automation
+Stakeholder Management,Operations,stakeholder maps|exec comms,alignment|buy-in|communication
+Developer Relations Leadership,Community & DevRel,head of devrel|devrel leadership,community|content|advocacy
+Community Building,Community & DevRel,developer community|programs,events|engagement|growth
+Education & Enablement,Community & DevRel,workshops|training,curriculum|docs|onboarding
+AI Governance,Governance & Ethics,model risk documentation|review queues,policy|responsibility|compliance
+Documentation Standards,Governance & Ethics,style guides|templates,consistency|quality|readability
+Web Standards Stewardship,Governance & Ethics,w3c steward|standards,specs|evangelism|governance

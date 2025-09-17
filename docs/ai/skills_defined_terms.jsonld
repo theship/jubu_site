@@ -1,0 +1,2781 @@
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTermSet",
+  "name": "Julee Burdekin Skills Vocabulary",
+  "url": "https://juleeburdekin.com/ai/skills_vocab.csv",
+  "dateModified": "2025-09-17",
+  "hasDefinedTerm": [
+    {
+      "@type": "DefinedTerm",
+      "name": "Python",
+      "inDefinedTermSet": "https://juleeburdekin.com/ai/skills_vocab.csv",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "name": "category",
+          "value": "Programming Languages"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "aliases",
+          "value": "python3|py"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "tags",
+          "value": "backend|scripting|data"
+        }
+      ]
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "JavaScript",
+      "inDefinedTermSet": "https://juleeburdekin.com/ai/skills_vocab.csv",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "name": "category",
+          "value": "Programming Languages"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "aliases",
+          "value": "js|ecmascript|es6"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "tags",
+          "value": "frontend|web|node"
+        }
+      ]
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "TypeScript",
+      "inDefinedTermSet": "https://juleeburdekin.com/ai/skills_vocab.csv",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "name": "category",
+          "value": "Programming Languages"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "aliases",
+          "value": "ts"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "tags",
+          "value": "types|frontend|fullstack"
+        }
+      ]
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "SQL",
+      "inDefinedTermSet": "https://juleeburdekin.com/ai/skills_vocab.csv",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "name": "category",
+          "value": "Programming Languages"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "aliases",
+          "value": "sql92|ansi-sql"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "tags",
+          "value": "database|queries|etl"
+        }
+      ]
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "HTML",
+      "inDefinedTermSet": "https://juleeburdekin.com/ai/skills_vocab.csv",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "name": "category",
+          "value": "Programming Languages"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "aliases",
+          "value": "html5"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "tags",
+          "value": "markup|web|frontend"
+        }
+      ]
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "CSS",
+      "inDefinedTermSet": "https://juleeburdekin.com/ai/skills_vocab.csv",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "name": "category",
+          "value": "Programming Languages"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "aliases",
+          "value": "css3"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "tags",
+          "value": "styles|web|frontend"
+        }
+      ]
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "ActionScript",
+      "inDefinedTermSet": "https://juleeburdekin.com/ai/skills_vocab.csv",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "name": "category",
+          "value": "Programming Languages"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "aliases",
+          "value": "as3|actionscript3"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "tags",
+          "value": "adobe|language|legacy"
+        }
+      ]
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Bash",
+      "inDefinedTermSet": "https://juleeburdekin.com/ai/skills_vocab.csv",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "name": "category",
+          "value": "Programming Languages"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "aliases",
+          "value": "shell|sh"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "tags",
+          "value": "scripting|cli|devops"
+        }
+      ]
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "JSON",
+      "inDefinedTermSet": "https://juleeburdekin.com/ai/skills_vocab.csv",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "name": "category",
+          "value": "Programming Languages"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "aliases",
+          "value": "json5"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "tags",
+          "value": "data|serialization|web"
+        }
+      ]
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "YAML",
+      "inDefinedTermSet": "https://juleeburdekin.com/ai/skills_vocab.csv",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "name": "category",
+          "value": "Programming Languages"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "aliases",
+          "value": "yml"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "tags",
+          "value": "config|serialization|devops"
+        }
+      ]
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "React",
+      "inDefinedTermSet": "https://juleeburdekin.com/ai/skills_vocab.csv",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "name": "category",
+          "value": "Frameworks & Libraries"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "aliases",
+          "value": "reactjs|react.js"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "tags",
+          "value": "frontend|spa|ui"
+        }
+      ]
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Next.js",
+      "inDefinedTermSet": "https://juleeburdekin.com/ai/skills_vocab.csv",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "name": "category",
+          "value": "Frameworks & Libraries"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "aliases",
+          "value": "nextjs|next"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "tags",
+          "value": "react|ssr|ssg"
+        }
+      ]
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Angular",
+      "inDefinedTermSet": "https://juleeburdekin.com/ai/skills_vocab.csv",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "name": "category",
+          "value": "Frameworks & Libraries"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "aliases",
+          "value": "angularjs|ng"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "tags",
+          "value": "frontend|spa|enterprise"
+        }
+      ]
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "D3.js",
+      "inDefinedTermSet": "https://juleeburdekin.com/ai/skills_vocab.csv",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "name": "category",
+          "value": "Frameworks & Libraries"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "aliases",
+          "value": "d3"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "tags",
+          "value": "dataviz|svg|charts"
+        }
+      ]
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "GSAP",
+      "inDefinedTermSet": "https://juleeburdekin.com/ai/skills_vocab.csv",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "name": "category",
+          "value": "Frameworks & Libraries"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "aliases",
+          "value": "greensock"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "tags",
+          "value": "animation|web|ui"
+        }
+      ]
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Bootstrap",
+      "inDefinedTermSet": "https://juleeburdekin.com/ai/skills_vocab.csv",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "name": "category",
+          "value": "Frameworks & Libraries"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "aliases",
+          "value": "twitter-bootstrap"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "tags",
+          "value": "css|ui|components"
+        }
+      ]
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Recharts",
+      "inDefinedTermSet": "https://juleeburdekin.com/ai/skills_vocab.csv",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "name": "category",
+          "value": "Frameworks & Libraries"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "aliases",
+          "value": "rechartsjs"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "tags",
+          "value": "charts|react|dataviz"
+        }
+      ]
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Leaflet",
+      "inDefinedTermSet": "https://juleeburdekin.com/ai/skills_vocab.csv",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "name": "category",
+          "value": "Frameworks & Libraries"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "aliases",
+          "value": "leafletjs"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "tags",
+          "value": "maps|gis|web"
+        }
+      ]
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Mapbox GL JS",
+      "inDefinedTermSet": "https://juleeburdekin.com/ai/skills_vocab.csv",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "name": "category",
+          "value": "Frameworks & Libraries"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "aliases",
+          "value": "mapbox|mapbox-gl"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "tags",
+          "value": "maps|gis|tiles"
+        }
+      ]
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "FastAPI",
+      "inDefinedTermSet": "https://juleeburdekin.com/ai/skills_vocab.csv",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "name": "category",
+          "value": "Frameworks & Libraries"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "aliases",
+          "value": "fastapi"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "tags",
+          "value": "apis|python|web"
+        }
+      ]
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Pydantic",
+      "inDefinedTermSet": "https://juleeburdekin.com/ai/skills_vocab.csv",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "name": "category",
+          "value": "Frameworks & Libraries"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "aliases",
+          "value": "pydantic2|pydantic-v2"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "tags",
+          "value": "validation|models|python"
+        }
+      ]
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "SQLAlchemy",
+      "inDefinedTermSet": "https://juleeburdekin.com/ai/skills_vocab.csv",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "name": "category",
+          "value": "Frameworks & Libraries"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "aliases",
+          "value": "sqlalchemy"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "tags",
+          "value": "orm|database|python"
+        }
+      ]
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Alembic",
+      "inDefinedTermSet": "https://juleeburdekin.com/ai/skills_vocab.csv",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "name": "category",
+          "value": "Frameworks & Libraries"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "aliases",
+          "value": "alembic"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "tags",
+          "value": "migrations|database|python"
+        }
+      ]
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Pytest",
+      "inDefinedTermSet": "https://juleeburdekin.com/ai/skills_vocab.csv",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "name": "category",
+          "value": "Frameworks & Libraries"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "aliases",
+          "value": "pytest"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "tags",
+          "value": "testing|python|unit-tests"
+        }
+      ]
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Playwright",
+      "inDefinedTermSet": "https://juleeburdekin.com/ai/skills_vocab.csv",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "name": "category",
+          "value": "Testing & QA"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "aliases",
+          "value": "playwright"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "tags",
+          "value": "e2e|testing|browser"
+        }
+      ]
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Puppeteer",
+      "inDefinedTermSet": "https://juleeburdekin.com/ai/skills_vocab.csv",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "name": "category",
+          "value": "Testing & QA"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "aliases",
+          "value": "puppeteer"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "tags",
+          "value": "e2e|testing|browser"
+        }
+      ]
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Postman",
+      "inDefinedTermSet": "https://juleeburdekin.com/ai/skills_vocab.csv",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "name": "category",
+          "value": "API & Docs"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "aliases",
+          "value": "postman"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "tags",
+          "value": "api|testing|collections"
+        }
+      ]
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "OpenAPI/Swagger",
+      "inDefinedTermSet": "https://juleeburdekin.com/ai/skills_vocab.csv",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "name": "category",
+          "value": "API & Docs"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "aliases",
+          "value": "openapi|swagger"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "tags",
+          "value": "api|schema|documentation"
+        }
+      ]
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "MkDocs Material",
+      "inDefinedTermSet": "https://juleeburdekin.com/ai/skills_vocab.csv",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "name": "category",
+          "value": "API & Docs"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "aliases",
+          "value": "mkdocs|material-for-mkdocs"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "tags",
+          "value": "docs|site|static"
+        }
+      ]
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Hugo",
+      "inDefinedTermSet": "https://juleeburdekin.com/ai/skills_vocab.csv",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "name": "category",
+          "value": "API & Docs"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "aliases",
+          "value": "hugo"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "tags",
+          "value": "static-site|docs|generator"
+        }
+      ]
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Hugo Relearn",
+      "inDefinedTermSet": "https://juleeburdekin.com/ai/skills_vocab.csv",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "name": "category",
+          "value": "API & Docs"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "aliases",
+          "value": "hugo-theme-relearn|relearn"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "tags",
+          "value": "docs|theme|hugo"
+        }
+      ]
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Ghost",
+      "inDefinedTermSet": "https://juleeburdekin.com/ai/skills_vocab.csv",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "name": "category",
+          "value": "API & Docs"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "aliases",
+          "value": "ghost"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "tags",
+          "value": "blog|cms|publishing"
+        }
+      ]
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "HubSpot Knowledge Base",
+      "inDefinedTermSet": "https://juleeburdekin.com/ai/skills_vocab.csv",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "name": "category",
+          "value": "API & Docs"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "aliases",
+          "value": "hubspot|hubspot-kb"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "tags",
+          "value": "cms|kb|publishing"
+        }
+      ]
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Salesforce Lightning",
+      "inDefinedTermSet": "https://juleeburdekin.com/ai/skills_vocab.csv",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "name": "category",
+          "value": "API & Docs"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "aliases",
+          "value": "lightning|lwc"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "tags",
+          "value": "salesforce|ui|platform"
+        }
+      ]
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Adobe Experience Manager (AEM)",
+      "inDefinedTermSet": "https://juleeburdekin.com/ai/skills_vocab.csv",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "name": "category",
+          "value": "API & Docs"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "aliases",
+          "value": "aem|adobe-experience-manager"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "tags",
+          "value": "cms|enterprise|content"
+        }
+      ]
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "ASDoc",
+      "inDefinedTermSet": "https://juleeburdekin.com/ai/skills_vocab.csv",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "name": "category",
+          "value": "API & Docs"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "aliases",
+          "value": "asdoc"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "tags",
+          "value": "docs|actionscript|generator"
+        }
+      ]
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Doxygen",
+      "inDefinedTermSet": "https://juleeburdekin.com/ai/skills_vocab.csv",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "name": "category",
+          "value": "API & Docs"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "aliases",
+          "value": "doxygen"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "tags",
+          "value": "docs|code|generator"
+        }
+      ]
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Git",
+      "inDefinedTermSet": "https://juleeburdekin.com/ai/skills_vocab.csv",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "name": "category",
+          "value": "DevOps & Infrastructure"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "aliases",
+          "value": "git"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "tags",
+          "value": "vcs|version-control|scm"
+        }
+      ]
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "GitHub",
+      "inDefinedTermSet": "https://juleeburdekin.com/ai/skills_vocab.csv",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "name": "category",
+          "value": "DevOps & Infrastructure"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "aliases",
+          "value": "github"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "tags",
+          "value": "vcs|hosting|collaboration"
+        }
+      ]
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "GitLab",
+      "inDefinedTermSet": "https://juleeburdekin.com/ai/skills_vocab.csv",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "name": "category",
+          "value": "DevOps & Infrastructure"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "aliases",
+          "value": "gitlab"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "tags",
+          "value": "vcs|ci|collaboration"
+        }
+      ]
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "GitHub Actions",
+      "inDefinedTermSet": "https://juleeburdekin.com/ai/skills_vocab.csv",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "name": "category",
+          "value": "DevOps & Infrastructure"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "aliases",
+          "value": "github-actions"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "tags",
+          "value": "ci|cd|automation"
+        }
+      ]
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "GitLab CI/CD",
+      "inDefinedTermSet": "https://juleeburdekin.com/ai/skills_vocab.csv",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "name": "category",
+          "value": "DevOps & Infrastructure"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "aliases",
+          "value": "gitlab-ci|gitlab-pipelines"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "tags",
+          "value": "ci|cd|automation"
+        }
+      ]
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Docker",
+      "inDefinedTermSet": "https://juleeburdekin.com/ai/skills_vocab.csv",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "name": "category",
+          "value": "DevOps & Infrastructure"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "aliases",
+          "value": "docker"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "tags",
+          "value": "containers|dev|deploy"
+        }
+      ]
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Make",
+      "inDefinedTermSet": "https://juleeburdekin.com/ai/skills_vocab.csv",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "name": "category",
+          "value": "DevOps & Infrastructure"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "aliases",
+          "value": "make|makefile"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "tags",
+          "value": "build|automation|tooling"
+        }
+      ]
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Redis",
+      "inDefinedTermSet": "https://juleeburdekin.com/ai/skills_vocab.csv",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "name": "category",
+          "value": "DevOps & Infrastructure"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "aliases",
+          "value": "redis"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "tags",
+          "value": "cache|queue|pubsub"
+        }
+      ]
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "PostgreSQL",
+      "inDefinedTermSet": "https://juleeburdekin.com/ai/skills_vocab.csv",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "name": "category",
+          "value": "Databases & Storage"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "aliases",
+          "value": "postgres|postgresql"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "tags",
+          "value": "database|relational|sql"
+        }
+      ]
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "pgvector",
+      "inDefinedTermSet": "https://juleeburdekin.com/ai/skills_vocab.csv",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "name": "category",
+          "value": "Databases & Storage"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "aliases",
+          "value": "pgvector"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "tags",
+          "value": "embeddings|vector|postgres"
+        }
+      ]
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Supabase",
+      "inDefinedTermSet": "https://juleeburdekin.com/ai/skills_vocab.csv",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "name": "category",
+          "value": "Databases & Storage"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "aliases",
+          "value": "supabase"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "tags",
+          "value": "backend|auth|db"
+        }
+      ]
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Google Cloud Run",
+      "inDefinedTermSet": "https://juleeburdekin.com/ai/skills_vocab.csv",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "name": "category",
+          "value": "Cloud & Platforms"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "aliases",
+          "value": "cloud-run|gcrun"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "tags",
+          "value": "serverless|gcp|containers"
+        }
+      ]
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Google Cloud SQL",
+      "inDefinedTermSet": "https://juleeburdekin.com/ai/skills_vocab.csv",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "name": "category",
+          "value": "Cloud & Platforms"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "aliases",
+          "value": "cloud-sql|gcp-sql"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "tags",
+          "value": "database|gcp|postgres"
+        }
+      ]
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Descope",
+      "inDefinedTermSet": "https://juleeburdekin.com/ai/skills_vocab.csv",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "name": "category",
+          "value": "Cloud & Platforms"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "aliases",
+          "value": "descope"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "tags",
+          "value": "auth|idm|login"
+        }
+      ]
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "OneSignal",
+      "inDefinedTermSet": "https://juleeburdekin.com/ai/skills_vocab.csv",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "name": "category",
+          "value": "Cloud & Platforms"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "aliases",
+          "value": "onesignal"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "tags",
+          "value": "push|notifications|messaging"
+        }
+      ]
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Planet SDK (Python)",
+      "inDefinedTermSet": "https://juleeburdekin.com/ai/skills_vocab.csv",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "name": "category",
+          "value": "Geospatial & Remote Sensing"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "aliases",
+          "value": "planet|planet-sdk-py"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "tags",
+          "value": "remote-sensing|api|imagery"
+        }
+      ]
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Planet CLI",
+      "inDefinedTermSet": "https://juleeburdekin.com/ai/skills_vocab.csv",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "name": "category",
+          "value": "Geospatial & Remote Sensing"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "aliases",
+          "value": "planet-cli"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "tags",
+          "value": "remote-sensing|tools|imagery"
+        }
+      ]
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "GIS",
+      "inDefinedTermSet": "https://juleeburdekin.com/ai/skills_vocab.csv",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "name": "category",
+          "value": "Geospatial & Remote Sensing"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "aliases",
+          "value": "gis"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "tags",
+          "value": "geospatial|mapping|analysis"
+        }
+      ]
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Remote Sensing",
+      "inDefinedTermSet": "https://juleeburdekin.com/ai/skills_vocab.csv",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "name": "category",
+          "value": "Geospatial & Remote Sensing"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "aliases",
+          "value": "remote-sensing"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "tags",
+          "value": "satellite|imagery|earth-observation"
+        }
+      ]
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Sentinel-2",
+      "inDefinedTermSet": "https://juleeburdekin.com/ai/skills_vocab.csv",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "name": "category",
+          "value": "Geospatial & Remote Sensing"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "aliases",
+          "value": "sentinel2"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "tags",
+          "value": "esa|multispectral|imagery"
+        }
+      ]
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "GeoJSON",
+      "inDefinedTermSet": "https://juleeburdekin.com/ai/skills_vocab.csv",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "name": "category",
+          "value": "Geospatial & Remote Sensing"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "aliases",
+          "value": "geojson"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "tags",
+          "value": "gis|data-format|features"
+        }
+      ]
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Hadoop",
+      "inDefinedTermSet": "https://juleeburdekin.com/ai/skills_vocab.csv",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "name": "category",
+          "value": "Data & ML"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "aliases",
+          "value": "hadoop"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "tags",
+          "value": "big-data|mapreduce|cluster"
+        }
+      ]
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Hive",
+      "inDefinedTermSet": "https://juleeburdekin.com/ai/skills_vocab.csv",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "name": "category",
+          "value": "Data & ML"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "aliases",
+          "value": "hive|apache-hive"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "tags",
+          "value": "sql|warehouse|big-data"
+        }
+      ]
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "NLTK",
+      "inDefinedTermSet": "https://juleeburdekin.com/ai/skills_vocab.csv",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "name": "category",
+          "value": "Data & ML"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "aliases",
+          "value": "nltk"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "tags",
+          "value": "nlp|python|text"
+        }
+      ]
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Weights & Biases (wandb)",
+      "inDefinedTermSet": "https://juleeburdekin.com/ai/skills_vocab.csv",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "name": "category",
+          "value": "Data & ML"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "aliases",
+          "value": "wandb|weights-and-biases"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "tags",
+          "value": "mlops|experiments|tracking"
+        }
+      ]
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Weave",
+      "inDefinedTermSet": "https://juleeburdekin.com/ai/skills_vocab.csv",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "name": "category",
+          "value": "Data & ML"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "aliases",
+          "value": "weave"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "tags",
+          "value": "tracing|observability|llm"
+        }
+      ]
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "OpenAI API",
+      "inDefinedTermSet": "https://juleeburdekin.com/ai/skills_vocab.csv",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "name": "category",
+          "value": "Data & ML"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "aliases",
+          "value": "openai"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "tags",
+          "value": "llm|genai|apis"
+        }
+      ]
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Row Level Security (RLS)",
+      "inDefinedTermSet": "https://juleeburdekin.com/ai/skills_vocab.csv",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "name": "category",
+          "value": "Security & Auth"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "aliases",
+          "value": "rls|postgres-rls"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "tags",
+          "value": "security|db|isolation"
+        }
+      ]
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "OAuth 2.0",
+      "inDefinedTermSet": "https://juleeburdekin.com/ai/skills_vocab.csv",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "name": "category",
+          "value": "Security & Auth"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "aliases",
+          "value": "oauth2"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "tags",
+          "value": "auth|security|flows"
+        }
+      ]
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "MSAL",
+      "inDefinedTermSet": "https://juleeburdekin.com/ai/skills_vocab.csv",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "name": "category",
+          "value": "Security & Auth"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "aliases",
+          "value": "msal"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "tags",
+          "value": "auth|oauth|microsoft"
+        }
+      ]
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Microsoft Graph API",
+      "inDefinedTermSet": "https://juleeburdekin.com/ai/skills_vocab.csv",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "name": "category",
+          "value": "Platforms & Integrations"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "aliases",
+          "value": "microsoft-graph|graph-api"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "tags",
+          "value": "sharepoint|office365|api"
+        }
+      ]
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "SharePoint API",
+      "inDefinedTermSet": "https://juleeburdekin.com/ai/skills_vocab.csv",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "name": "category",
+          "value": "Platforms & Integrations"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "aliases",
+          "value": "sharepoint-rest|sharepoint-graph"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "tags",
+          "value": "content|kb|documents"
+        }
+      ]
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "W3C Standards",
+      "inDefinedTermSet": "https://juleeburdekin.com/ai/skills_vocab.csv",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "name": "category",
+          "value": "Standards & Governance"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "aliases",
+          "value": "w3c"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "tags",
+          "value": "web-standards|governance|specs"
+        }
+      ]
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "HTML5",
+      "inDefinedTermSet": "https://juleeburdekin.com/ai/skills_vocab.csv",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "name": "category",
+          "value": "Standards & Governance"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "aliases",
+          "value": "html5"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "tags",
+          "value": "web|markup|standards"
+        }
+      ]
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "CSS3",
+      "inDefinedTermSet": "https://juleeburdekin.com/ai/skills_vocab.csv",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "name": "category",
+          "value": "Standards & Governance"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "aliases",
+          "value": "css3"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "tags",
+          "value": "web|styles|standards"
+        }
+      ]
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Information Architecture",
+      "inDefinedTermSet": "https://juleeburdekin.com/ai/skills_vocab.csv",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "name": "category",
+          "value": "Content & DevEx"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "aliases",
+          "value": "ia|info-architecture"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "tags",
+          "value": "content|ux|structure"
+        }
+      ]
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Content Engineering",
+      "inDefinedTermSet": "https://juleeburdekin.com/ai/skills_vocab.csv",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "name": "category",
+          "value": "Content & DevEx"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "aliases",
+          "value": "content-engineering"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "tags",
+          "value": "docs|pipelines|governance"
+        }
+      ]
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Developer Relations",
+      "inDefinedTermSet": "https://juleeburdekin.com/ai/skills_vocab.csv",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "name": "category",
+          "value": "Content & DevEx"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "aliases",
+          "value": "devrel|developer-advocacy"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "tags",
+          "value": "community|content|education"
+        }
+      ]
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "API Documentation",
+      "inDefinedTermSet": "https://juleeburdekin.com/ai/skills_vocab.csv",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "name": "category",
+          "value": "Content & DevEx"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "aliases",
+          "value": "api-docs"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "tags",
+          "value": "docs|devex|reference"
+        }
+      ]
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Knowledge Systems",
+      "inDefinedTermSet": "https://juleeburdekin.com/ai/skills_vocab.csv",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "name": "category",
+          "value": "Content & DevEx"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "aliases",
+          "value": "knowledge-systems"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "tags",
+          "value": "taxonomy|governance|ops"
+        }
+      ]
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Taxonomy Design",
+      "inDefinedTermSet": "https://juleeburdekin.com/ai/skills_vocab.csv",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "name": "category",
+          "value": "Content & DevEx"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "aliases",
+          "value": "taxonomy"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "tags",
+          "value": "metadata|ontology|classification"
+        }
+      ]
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Data Pipelines",
+      "inDefinedTermSet": "https://juleeburdekin.com/ai/skills_vocab.csv",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "name": "category",
+          "value": "Content & DevEx"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "aliases",
+          "value": "data-pipelines"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "tags",
+          "value": "etl|elt|workflow"
+        }
+      ]
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Experiment Tracking",
+      "inDefinedTermSet": "https://juleeburdekin.com/ai/skills_vocab.csv",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "name": "category",
+          "value": "Content & DevEx"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "aliases",
+          "value": "experiment-tracking"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "tags",
+          "value": "mlops|wandb|evals"
+        }
+      ]
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "SEO",
+      "inDefinedTermSet": "https://juleeburdekin.com/ai/skills_vocab.csv",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "name": "category",
+          "value": "Content & DevEx"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "aliases",
+          "value": "seo|search-engine-optimization"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "tags",
+          "value": "search|content|growth"
+        }
+      ]
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Dreamweaver",
+      "inDefinedTermSet": "https://juleeburdekin.com/ai/skills_vocab.csv",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "name": "category",
+          "value": "Legacy & History"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "aliases",
+          "value": "dreamweaver"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "tags",
+          "value": "tools|adobe|web"
+        }
+      ]
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Flash",
+      "inDefinedTermSet": "https://juleeburdekin.com/ai/skills_vocab.csv",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "name": "category",
+          "value": "Legacy & History"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "aliases",
+          "value": "flash"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "tags",
+          "value": "multimedia|adobe|runtime"
+        }
+      ]
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Flash Media Server",
+      "inDefinedTermSet": "https://juleeburdekin.com/ai/skills_vocab.csv",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "name": "category",
+          "value": "Legacy & History"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "aliases",
+          "value": "fms|flash-media-server"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "tags",
+          "value": "streaming|adobe|server"
+        }
+      ]
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Product Management",
+      "inDefinedTermSet": "https://juleeburdekin.com/ai/skills_vocab.csv",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "name": "category",
+          "value": "Product Management"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "aliases",
+          "value": "product-mgmt|pm"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "tags",
+          "value": "roadmap|discovery|prioritization|delivery"
+        }
+      ]
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Roadmapping",
+      "inDefinedTermSet": "https://juleeburdekin.com/ai/skills_vocab.csv",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "name": "category",
+          "value": "Product Management"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "aliases",
+          "value": "product roadmap|quarterly planning"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "tags",
+          "value": "prioritization|strategy|planning"
+        }
+      ]
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Product Strategy",
+      "inDefinedTermSet": "https://juleeburdekin.com/ai/skills_vocab.csv",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "name": "category",
+          "value": "Product Management"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "aliases",
+          "value": "strategy docs|north star"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "tags",
+          "value": "vision|kpis|themes"
+        }
+      ]
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "PRD Writing",
+      "inDefinedTermSet": "https://juleeburdekin.com/ai/skills_vocab.csv",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "name": "category",
+          "value": "Product Management"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "aliases",
+          "value": "product requirements|prds"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "tags",
+          "value": "specs|acceptance-criteria|alignment"
+        }
+      ]
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Customer Discovery",
+      "inDefinedTermSet": "https://juleeburdekin.com/ai/skills_vocab.csv",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "name": "category",
+          "value": "Product Management"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "aliases",
+          "value": "user interviews|problem discovery"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "tags",
+          "value": "research|validation|mvp"
+        }
+      ]
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "MVP Development",
+      "inDefinedTermSet": "https://juleeburdekin.com/ai/skills_vocab.csv",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "name": "category",
+          "value": "Product Management"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "aliases",
+          "value": "minimum viable product|prototype"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "tags",
+          "value": "lean|experimentation|iteration"
+        }
+      ]
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "API Product Management",
+      "inDefinedTermSet": "https://juleeburdekin.com/ai/skills_vocab.csv",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "name": "category",
+          "value": "Product Management"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "aliases",
+          "value": "api pm|platform pm"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "tags",
+          "value": "sdk|developer-experience|platform"
+        }
+      ]
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Documentation-as-Product",
+      "inDefinedTermSet": "https://juleeburdekin.com/ai/skills_vocab.csv",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "name": "category",
+          "value": "Product Management"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "aliases",
+          "value": "docs-as-code|doc productization"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "tags",
+          "value": "versioning|quality|metrics"
+        }
+      ]
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Product Analytics",
+      "inDefinedTermSet": "https://juleeburdekin.com/ai/skills_vocab.csv",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "name": "category",
+          "value": "Product Management"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "aliases",
+          "value": "kpi dashboards|instrumentation"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "tags",
+          "value": "metrics|telemetry|insights"
+        }
+      ]
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Developer Experience Strategy",
+      "inDefinedTermSet": "https://juleeburdekin.com/ai/skills_vocab.csv",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "name": "category",
+          "value": "Product Management"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "aliases",
+          "value": "devex strategy|dx strategy"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "tags",
+          "value": "sdk|docs|tooling"
+        }
+      ]
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Program Management",
+      "inDefinedTermSet": "https://juleeburdekin.com/ai/skills_vocab.csv",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "name": "category",
+          "value": "Program Management"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "aliases",
+          "value": "pgm|program-mgmt"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "tags",
+          "value": "portfolio|governance|delivery"
+        }
+      ]
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Project Management",
+      "inDefinedTermSet": "https://juleeburdekin.com/ai/skills_vocab.csv",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "name": "category",
+          "value": "Program Management"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "aliases",
+          "value": "proj-mgmt|pmgt"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "tags",
+          "value": "schedule|scope|budget"
+        }
+      ]
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Cross-functional Leadership",
+      "inDefinedTermSet": "https://juleeburdekin.com/ai/skills_vocab.csv",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "name": "category",
+          "value": "Program Management"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "aliases",
+          "value": "xfn leadership|matrix mgmt"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "tags",
+          "value": "alignment|communication|collaboration"
+        }
+      ]
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Risk Management",
+      "inDefinedTermSet": "https://juleeburdekin.com/ai/skills_vocab.csv",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "name": "category",
+          "value": "Program Management"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "aliases",
+          "value": "raid logs|risk mitigation"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "tags",
+          "value": "risk|dependency|contingency"
+        }
+      ]
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Dependency Management",
+      "inDefinedTermSet": "https://juleeburdekin.com/ai/skills_vocab.csv",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "name": "category",
+          "value": "Program Management"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "aliases",
+          "value": "critical path|blockers"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "tags",
+          "value": "planning|xfn|delivery"
+        }
+      ]
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Agile Methodologies",
+      "inDefinedTermSet": "https://juleeburdekin.com/ai/skills_vocab.csv",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "name": "category",
+          "value": "Program Management"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "aliases",
+          "value": "scrum|kanban"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "tags",
+          "value": "process|iteration|ceremonies"
+        }
+      ]
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Change Management",
+      "inDefinedTermSet": "https://juleeburdekin.com/ai/skills_vocab.csv",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "name": "category",
+          "value": "Program Management"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "aliases",
+          "value": "rollouts|enablement"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "tags",
+          "value": "adoption|training|communications"
+        }
+      ]
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "OKRs & KPIs",
+      "inDefinedTermSet": "https://juleeburdekin.com/ai/skills_vocab.csv",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "name": "category",
+          "value": "Program Management"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "aliases",
+          "value": "okrs|kpis"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "tags",
+          "value": "goals|measurement|outcomes"
+        }
+      ]
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Team Leadership",
+      "inDefinedTermSet": "https://juleeburdekin.com/ai/skills_vocab.csv",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "name": "category",
+          "value": "People Management"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "aliases",
+          "value": "people mgmt|team lead"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "tags",
+          "value": "coaching|growth|delivery"
+        }
+      ]
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Mentorship & Coaching",
+      "inDefinedTermSet": "https://juleeburdekin.com/ai/skills_vocab.csv",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "name": "category",
+          "value": "People Management"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "aliases",
+          "value": "mentoring|coaching"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "tags",
+          "value": "career|skills|feedback"
+        }
+      ]
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Hiring & Team Building",
+      "inDefinedTermSet": "https://juleeburdekin.com/ai/skills_vocab.csv",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "name": "category",
+          "value": "People Management"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "aliases",
+          "value": "recruiting|team assembly"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "tags",
+          "value": "interviews|onboarding|skills-based"
+        }
+      ]
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Inclusive Culture",
+      "inDefinedTermSet": "https://juleeburdekin.com/ai/skills_vocab.csv",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "name": "category",
+          "value": "People Management"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "aliases",
+          "value": "dei|inclusive leadership"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "tags",
+          "value": "equity|culture|belonging"
+        }
+      ]
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Corporate Strategy",
+      "inDefinedTermSet": "https://juleeburdekin.com/ai/skills_vocab.csv",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "name": "category",
+          "value": "Leadership & Strategy"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "aliases",
+          "value": "strategy|operating model"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "tags",
+          "value": "planning|frameworks|execution"
+        }
+      ]
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Knowledge Systems Strategy",
+      "inDefinedTermSet": "https://juleeburdekin.com/ai/skills_vocab.csv",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "name": "category",
+          "value": "Leadership & Strategy"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "aliases",
+          "value": "semantic infrastructure|info-architecture strategy"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "tags",
+          "value": "governance|metadata|scalability"
+        }
+      ]
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "AI/ML Strategy",
+      "inDefinedTermSet": "https://juleeburdekin.com/ai/skills_vocab.csv",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "name": "category",
+          "value": "Leadership & Strategy"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "aliases",
+          "value": "genai strategy|ml strategy"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "tags",
+          "value": "experimentation|evaluation|risk"
+        }
+      ]
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Go-To-Market Strategy",
+      "inDefinedTermSet": "https://juleeburdekin.com/ai/skills_vocab.csv",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "name": "category",
+          "value": "Leadership & Strategy"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "aliases",
+          "value": "gtm|launch strategy"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "tags",
+          "value": "positioning|channels|enablement"
+        }
+      ]
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Community Strategy",
+      "inDefinedTermSet": "https://juleeburdekin.com/ai/skills_vocab.csv",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "name": "category",
+          "value": "Leadership & Strategy"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "aliases",
+          "value": "developer programs|ecosystem strategy"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "tags",
+          "value": "growth|advocacy|engagement"
+        }
+      ]
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Founder/CEO Experience",
+      "inDefinedTermSet": "https://juleeburdekin.com/ai/skills_vocab.csv",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "name": "category",
+          "value": "Entrepreneurship"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "aliases",
+          "value": "founder|ceo"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "tags",
+          "value": "venture|leadership|operating"
+        }
+      ]
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Lean Startup",
+      "inDefinedTermSet": "https://juleeburdekin.com/ai/skills_vocab.csv",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "name": "category",
+          "value": "Entrepreneurship"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "aliases",
+          "value": "lean|hypothesis testing"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "tags",
+          "value": "mvp|iteration|learning"
+        }
+      ]
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Fundraising (SAFE)",
+      "inDefinedTermSet": "https://juleeburdekin.com/ai/skills_vocab.csv",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "name": "category",
+          "value": "Entrepreneurship"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "aliases",
+          "value": "safe notes|pre-seed"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "tags",
+          "value": "financing|cap-table|term-sheet"
+        }
+      ]
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Social Impact Strategy",
+      "inDefinedTermSet": "https://juleeburdekin.com/ai/skills_vocab.csv",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "name": "category",
+          "value": "Entrepreneurship"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "aliases",
+          "value": "benefit corp|public good"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "tags",
+          "value": "mission|ethics|stakeholders"
+        }
+      ]
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Process Design & SOPs",
+      "inDefinedTermSet": "https://juleeburdekin.com/ai/skills_vocab.csv",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "name": "category",
+          "value": "Operations"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "aliases",
+          "value": "standard operating procedures|process engineering"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "tags",
+          "value": "scalability|quality|repeatability"
+        }
+      ]
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Content Operations",
+      "inDefinedTermSet": "https://juleeburdekin.com/ai/skills_vocab.csv",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "name": "category",
+          "value": "Operations"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "aliases",
+          "value": "doc ops|editorial ops"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "tags",
+          "value": "workflow|governance|publishing"
+        }
+      ]
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Knowledge Base Operations",
+      "inDefinedTermSet": "https://juleeburdekin.com/ai/skills_vocab.csv",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "name": "category",
+          "value": "Operations"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "aliases",
+          "value": "kb ops|hubspot kb"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "tags",
+          "value": "cms|publishing|support"
+        }
+      ]
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "CMS Migration & Integration",
+      "inDefinedTermSet": "https://juleeburdekin.com/ai/skills_vocab.csv",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "name": "category",
+          "value": "Operations"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "aliases",
+          "value": "aem to hubspot|hugo to hubspot"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "tags",
+          "value": "migration|integration|automation"
+        }
+      ]
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Stakeholder Management",
+      "inDefinedTermSet": "https://juleeburdekin.com/ai/skills_vocab.csv",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "name": "category",
+          "value": "Operations"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "aliases",
+          "value": "stakeholder maps|exec comms"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "tags",
+          "value": "alignment|buy-in|communication"
+        }
+      ]
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Developer Relations Leadership",
+      "inDefinedTermSet": "https://juleeburdekin.com/ai/skills_vocab.csv",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "name": "category",
+          "value": "Community & DevRel"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "aliases",
+          "value": "head of devrel|devrel leadership"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "tags",
+          "value": "community|content|advocacy"
+        }
+      ]
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Community Building",
+      "inDefinedTermSet": "https://juleeburdekin.com/ai/skills_vocab.csv",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "name": "category",
+          "value": "Community & DevRel"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "aliases",
+          "value": "developer community|programs"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "tags",
+          "value": "events|engagement|growth"
+        }
+      ]
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Education & Enablement",
+      "inDefinedTermSet": "https://juleeburdekin.com/ai/skills_vocab.csv",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "name": "category",
+          "value": "Community & DevRel"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "aliases",
+          "value": "workshops|training"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "tags",
+          "value": "curriculum|docs|onboarding"
+        }
+      ]
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "AI Governance",
+      "inDefinedTermSet": "https://juleeburdekin.com/ai/skills_vocab.csv",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "name": "category",
+          "value": "Governance & Ethics"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "aliases",
+          "value": "model risk documentation|review queues"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "tags",
+          "value": "policy|responsibility|compliance"
+        }
+      ]
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Documentation Standards",
+      "inDefinedTermSet": "https://juleeburdekin.com/ai/skills_vocab.csv",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "name": "category",
+          "value": "Governance & Ethics"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "aliases",
+          "value": "style guides|templates"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "tags",
+          "value": "consistency|quality|readability"
+        }
+      ]
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Web Standards Stewardship",
+      "inDefinedTermSet": "https://juleeburdekin.com/ai/skills_vocab.csv",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "name": "category",
+          "value": "Governance & Ethics"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "aliases",
+          "value": "w3c steward|standards"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "tags",
+          "value": "specs|evangelism|governance"
+        }
+      ]
+    }
+  ]
+}

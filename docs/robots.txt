@@ -1,0 +1,56 @@
+# Primary: allow broad access + explicitly surface AI-facing resources
+User-agent: *
+Allow: /
+Allow: /ai/
+Allow: /resume/
+Sitemap: https://juleeburdekin.com/sitemap.xml
+Sitemap: https://juleeburdekin.com/skills-sitemap.xml
+
+# OpenAI
+User-agent: GPTBot
+Allow: /ai/skills_vocab.csv
+Allow: /resume/
+# docs: https://platform.openai.com/docs/bots
+
+# Anthropic
+User-agent: ClaudeBot
+Allow: /ai/skills_vocab.csv
+Allow: /resume/
+# docs: https://docs.anthropic.com/claude/docs/robots-txt
+
+# Perplexity
+User-agent: PerplexityBot
+Allow: /ai/skills_vocab.csv
+Allow: /resume/
+# docs: https://docs.perplexity.ai/guides/bots
+
+# Common Crawl (data lake for many LLMs)
+User-agent: CCBot
+Allow: /ai/skills_vocab.csv
+# optional: Crawl-delay is respected by CCBot if you ever need it
+# Crawl-delay: 2
+
+# Google Bard/PaLM (when officially announced)
+User-agent: BardBot
+Allow: /ai/skills_vocab.csv
+Allow: /resume/
+# docs: https://developers.google.com/search/docs/crawling-indexing/robots/intro
+
+# Microsoft Bing AI
+User-agent: BingBot-AI
+Allow: /ai/skills_vocab.csv
+Allow: /resume/
+# docs: https://www.bing.com/webmasters/help/which-crawlers-does-bing-use-8c184ec0
+
+# Meta AI (when officially announced)
+User-agent: MetaBot-AI
+Allow: /ai/skills_vocab.csv
+Allow: /resume/
+# docs: https://developers.facebook.com/docs/sharing/webmasters/crawler
+
+# Additional AI crawlers to watch for:
+# User-agent: ChatGPTBot
+# User-agent: Claude-Web
+# User-agent: PerplexityAI
+# User-agent: CohereBot
+# User-agent: AI21Bot
