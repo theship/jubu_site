@@ -22,7 +22,7 @@ Content isn't a sales asset. It's how organizations manifest consciousness. Stru
 
 ##### October 2023 – Present
 
-Independent knowledge-engineering practice focused on agent-readiness: the principles, workflows, reference knowledge, and evals that let agents act on designed context rather than guesswork. Built Civic Steward, an agentic pipeline on FastAPI, Next.js, and Supabase/pgvector, whose agents work from a versioned knowledge graph rather than raw prompts. Runs spec-driven development as standard practice — project constitutions, vertical-slice specs, and evals from the first agent run. Author of *Build Your Semantic Infrastructure First*.
+Independent knowledge-engineering practice focused on agent-readiness: the principles, workflows, reference knowledge, and evals that let agents act on designed context rather than guesswork. Built Civic Steward, an agentic pipeline on FastAPI, Next.js, and Supabase/pgvector, whose agents work from a versioned knowledge graph rather than raw prompts. Runs spec-driven development as standard practice — project constitutions, vertical-slice specs, and evals from the first agent run. Author of the [Agent-Readiness Field Guide](https://allostasis.ai/agent-readiness){:target="_blank"} — *Organizational legibility: six layers, seven tests* — and [*Build Your Semantic Infrastructure First*](https://gnowledge-karden.ghost.io/build-your-semantic-infrastructure-first/){:target="_blank"}.
 
 ### Technical Content Engineer
 
