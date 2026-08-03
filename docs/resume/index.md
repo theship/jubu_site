@@ -80,14 +80,6 @@ Documentation architecture for Dreamweaver, Flash, ActionScript, and Flash Media
 
 API documentation for cryptographic security products, including certificate servers and desktop security software.
 
-### Partner & Consultant
-
-#### Imagia
-
-##### 1993 – 1995
-
-Early web solutions in CGI and JavaScript; technical writing for Netscape and Borland.
-
 ## Education
 
 ### Mills College, Oakland, California
