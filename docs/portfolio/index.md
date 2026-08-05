@@ -2,9 +2,23 @@
 <div class="portfolio-overview">
 
 <div class="portfolio-overview-item">
+<h2 class="portfolio-landing-h2"><a href="allostasis-semantic-architecture/">Semantic architecture for agent-ready organizations (Allostasis AI)</a></h2>
+<a href="allostasis-semantic-architecture/">
+  <img src="../assets/images/portfolio/allostasis_landing_page.png" alt="Allostasis AI Landing Page">
+</a>
+</div>
+
+<div class="portfolio-overview-item">
+<h2 class="portfolio-landing-h2"><a href="geospan-developer-experience/">Developer experience from zero at Geospan</a></h2>
+<a href="geospan-developer-experience/">
+  <img src="../assets/images/portfolio/geospan_landing_page.png" alt="Geospan Developer Documentation Landing Page">
+</a>
+</div>
+
+<div class="portfolio-overview-item">
 <h2 class="portfolio-landing-h2"><a href="planet-labs-content-engineering/">Continuous content, continuous improvement at Planet Labs</a></h2>
 <a href="planet-labs-content-engineering/">
-  <img src="../assets/images/portfolio/planet_labs_landing_page.png" alt="Planet Labs PCB Landing Page">
+  <img src="../assets/images/portfolio/planet_labs_landing_page.png" alt="Planet Labs PBC Landing Page">
 </a>
 </div>
 
@@ -16,15 +30,15 @@
 </div>
 
 <div class="portfolio-overview-item">
-<h2 class="portfolio-landing-h2"><a href="viscira-life-science-in-action">Life science frontend development at Viscira, LLC</a></h2>
-<a href="viscira-life-science-in-action">
+<h2 class="portfolio-landing-h2"><a href="viscira-life-science-in-action/">Life science frontend development at Viscira</a></h2>
+<a href="viscira-life-science-in-action/">
   <img src="../assets/images/portfolio/viscira_splash_Antipdl1_02_2-1.jpg" alt="Viscira Splash Screen">
 </a>
 </div>
 
 <div class="portfolio-overview-item">
-<h2 class="portfolio-landing-h2"><a href="adobe-developer-focused">Content strategy & engineering at Adobe</a></h2>
-<a href="adobe-developer-focused">
+<h2 class="portfolio-landing-h2"><a href="adobe-developer-focused/">Content strategy &amp; engineering at Adobe</a></h2>
+<a href="adobe-developer-focused/">
   <img src="../assets/images/portfolio/adobe_creative_cloud_landing_page.png" alt="Adobe Landing Page">
 </a>
 </div>

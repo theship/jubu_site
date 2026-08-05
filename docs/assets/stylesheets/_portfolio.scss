@@ -62,22 +62,42 @@ section.portfolio-container {
   align-items: center;
   align-content: center;
   margin: 0 auto;
-  max-width: 66%;
+  // 80% of .md-content__inner, not of the viewport. Three 20vw tiles plus their
+  // 0.5vw margins need ~907px at 1440; 66% only yielded 774px and wrapped to 2 per row.
+  max-width: 80%;
   .portfolio-overview-item {
-    margin: 0.5vh 0.5vw;
-    padding: 0.5vh 0.5vw;
+    // Geometry is container-relative and content-driven, with NO viewport units
+    // and NO percentage heights. `20vw` scaled 1:1 with the window while
+    // .md-content__inner grows sublinearly, so tiles outgrew the container and
+    // wrapped to 2 per row past ~1488px. `aspect-ratio` then failed differently:
+    // it only holds while content fits, so headings wrapping to different line
+    // counts at different widths made tile heights diverge.
+    // Now: 31% + 2x0.5% margin = 32% per tile, so three always fit at any width;
+    // and every tile is padding + a fixed 3-line heading band + an image of
+    // identical aspect, so all six are necessarily the same height.
+    margin: 0.5vh 0.5%;
+    padding: 0.6em 0.5%;
     border: 0.5px solid #526CFF;
     border-radius: 5px;
-    width: 20vw;
-    height: 16vw;
+    width: 31%;
+    display: flex;
+    flex-direction: column;
     text-align: center;
-    vertical-align: middle;
     h2 {
       margin: 0;
-      padding: 0 0 1vh;
+      padding: 0 0.4em 0.5em;
       font-weight: lighter;
-      font-size: 1vw;
-      min-height: 25%;
+      // Capped in px, not rem: mkdocs-material sets 1rem = 22px, so a 1rem cap
+      // would not bind until ~2000px and the heading kept growing.
+      font-size: clamp(12px, 0.95vw, 15px);
+      line-height: 1.3;
+      // Three lines, em-based so it does not depend on the tile's own height.
+      // The longest heading is 66 characters and fits in three lines at the
+      // 15px cap down to the 1024px breakpoint.
+      min-height: calc(3 * 1.3em);
+      display: flex;
+      align-items: center;
+      justify-content: center;
     }
     p {
       margin: 0;
@@ -91,7 +111,12 @@ section.portfolio-container {
         color: var(--md-code-fg-color);
       }
       img {
-        max-height: 66%;
+        // Full tile width at a fixed source aspect, so image height is identical
+        // across all six tiles. Replaces `max-height: 66%`, which resolved
+        // against a tile height that was itself content-dependent.
+        display: block;
+        width: 100%;
+        height: auto;
       }
     }
   }
@@ -133,7 +158,11 @@ section.portfolio-container {
       height: 100%;
 
       h2 {
-        font-size: 2vw;
+        // 2vw alone computed to 7.5px at 375px, effectively unreadable.
+        font-size: clamp(14px, 2vw, 17px);
+        // Stacked tiles are full width, so headings fit on one or two lines;
+        // reserving three would leave a large gap above every image.
+        min-height: auto;
       }
     }
   }
