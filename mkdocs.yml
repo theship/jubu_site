@@ -113,9 +113,6 @@ extra:
 
 
 
-extra_css:
-  - "docs/assets/css/custom.css"
-
 # Extensions
 markdown_extensions:
   - abbr
