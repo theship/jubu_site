@@ -118,21 +118,25 @@ section.portfolio-container .md-grid .mdx-spotlight__feature img {
   max-width: 80%;
 }
 .portfolio-overview .portfolio-overview-item {
-  margin: 0.5vh 0.5vw;
-  padding: 0.5vh 0.5vw;
+  margin: 0.5vh 0.5%;
+  padding: 0.6em 0.5%;
   border: 0.5px solid #526CFF;
   border-radius: 5px;
-  width: 20vw;
-  height: 16vw;
+  width: 31%;
+  display: flex;
+  flex-direction: column;
   text-align: center;
-  vertical-align: middle;
 }
 .portfolio-overview .portfolio-overview-item h2 {
   margin: 0;
-  padding: 0 0 1vh;
+  padding: 0 0.4em 0.5em;
   font-weight: lighter;
-  font-size: 1vw;
-  min-height: 25%;
+  font-size: clamp(12px, 0.95vw, 15px);
+  line-height: 1.3;
+  min-height: calc(3 * 1.3em);
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .portfolio-overview .portfolio-overview-item p {
   margin: 0;
@@ -147,7 +151,9 @@ section.portfolio-container .md-grid .mdx-spotlight__feature img {
   color: var(--md-code-fg-color);
 }
 .portfolio-overview .portfolio-overview-item a img {
-  max-height: 66%;
+  display: block;
+  width: 100%;
+  height: auto;
 }
 
 @media screen and (max-width: 1023px) {
@@ -182,7 +188,8 @@ section.portfolio-container .md-grid .mdx-spotlight__feature img {
     height: 100%;
   }
   .portfolio-overview .portfolio-overview-item h2 {
-    font-size: 2vw;
+    font-size: clamp(14px, 2vw, 17px);
+    min-height: auto;
   }
 }
 @media only screen and (min-width: 1024px) {
