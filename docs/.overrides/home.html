@@ -62,53 +62,85 @@
         display: none;
       }
     }
+
     .sky {
       position: absolute;
       width: 100%;
       height: 100%;
-      
-      :before {
-        position: absolute;
-        content: '';
-        width: calc(100% + 30px);
-        height: calc(100% + 30px);
-        top: 50%; left: 50%;
-        transform: translate(-50%, -50%) scale(.7);
-        filter: blur(0);
-        opacity: 1;
-        transition: all 450ms cubic-bezier(0.23, 1, 0.32, 1);
-      }
-      .box-inner {
+    }
+
+    .box-inner {
       position: relative;
       width: 100%;
       height: 100%;
-    }
+      background-color: whitesmoke;
 
-    }
-    .box-inner {
-      background-color: whitesmoke;      
-      background-image: 
-        url("data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' width='1600' height='198'%3e%3cdefs%3e%3clinearGradient id='a' x1='50%25' x2='50%25' y1='-10.959%25' y2='100%25'%3e%3cstop stop-color='%2326a699' stop-opacity='.25' offset='0%25'/%3e%3cstop stop-color='%23546d78' offset='100%25'/%3e%3c/linearGradient%3e%3c/defs%3e%3cpath fill='url(%23a)' fill-rule='evenodd' d='M.005 121C311 121 409.898-.25 811 0c400 0 500 121 789 121v77H0s.005-48 .005-77z'/%3e%3c/svg%3e"),
-        url("data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' width='1600' height='198'%3e%3cdefs%3e%3clinearGradient id='a' x1='50%25' x2='50%25' y1='-10.959%25' y2='100%25'%3e%3cstop stop-color='%234051b5' stop-opacity='.25' offset='0%25'/%3e%3cstop stop-color='%23546d78' offset='100%25'/%3e%3c/linearGradient%3e%3c/defs%3e%3cpath fill='url(%23a)' fill-rule='evenodd' d='M.005 121C311 121 409.898-.25 811 0c400 0 500 121 789 121v77H0s.005-48 .005-77z'/%3e%3c/svg%3e"),
+      /* Three layers of one mark tile, plus the existing wave cutout along the
+         bottom. The marks begin scattered, at three different scales and
+         offsets, and resolve onto a single aligned grid. The wave layer is
+         static and takes no part in the animation. */
+      background-image:
+        url("data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' width='140' height='140'%3e%3cg fill='none' stroke='%234051b5' stroke-opacity='.34' stroke-width='2.5' stroke-linecap='round'%3e%3cpath d='M24 26v20M76 20v20M122 30v20M14 74v20M64 68v20M112 78v20M38 120v18M92 114v18'/%3e%3c/g%3e%3c/svg%3e"),
+        url("data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' width='140' height='140'%3e%3cg fill='none' stroke='%2326a699' stroke-opacity='.30' stroke-width='2.5' stroke-linecap='round'%3e%3cpath d='M24 26v20M76 20v20M122 30v20M14 74v20M64 68v20M112 78v20M38 120v18M92 114v18'/%3e%3c/g%3e%3c/svg%3e"),
+        url("data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' width='140' height='140'%3e%3cg fill='none' stroke='%23546d78' stroke-opacity='.26' stroke-width='2.5' stroke-linecap='round'%3e%3cpath d='M24 26v20M76 20v20M122 30v20M14 74v20M64 68v20M112 78v20M38 120v18M92 114v18'/%3e%3c/g%3e%3c/svg%3e"),
         url("data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' width='1600' height='198'%3e%3cdefs%3e%3clinearGradient id='a' x1='50%25' x2='50%25' y1='-10.959%25' y2='100%25'%3e%3cstop stop-color='%23dfe6ee' stop-opacity='.25' offset='0%25'/%3e%3cstop stop-color='%23546d78' offset='100%25'/%3e%3c/linearGradient%3e%3c/defs%3e%3cpath fill='url(%23a)' fill-rule='evenodd' d='M.005 121C311 121 409.898-.25 811 0c400 0 500 121 789 121v77H0s.005-48 .005-77z'/%3e%3c/svg%3e");
-      background-repeat: repeat-x;
-      background-size: 2000px 35%;
-      background-position: 0 130%, -50px 130%, 500px 130%;
-      
-      animation: 80s waves linear infinite forwards;
+      background-repeat: repeat, repeat, repeat, repeat-x;
+      background-size: 196px 196px, 104px 104px, 148px 148px, 2000px 35%;
+      background-position: 53px 31px, -37px 67px, 89px -43px, 0 130%;
+
+      animation: 12s drift cubic-bezier(0.22, 0.61, 0.36, 1) forwards;
     }
 
-    @keyframes waves {
+    /* The three mark layers converge on one scale and one origin, so the field
+       resolves into a single legible grid and then stops. The resolution is
+       the point, so this runs once rather than looping. */
+    @keyframes drift {
       to {
-        background-position: 200px 130%, 3150px 130%, 5300px 130%;
+        background-size: 140px 140px, 140px 140px, 140px 140px, 2000px 35%;
+        background-position: 0 0, 0 0, 0 0, 0 130%;
       }
     }
 
-@keyframes waves {
-  to {
-    background-position: 200px 130%, 3150px 130%, 5300px 130%;
-  }
-}
+    /* Render the resolved end state, with no animation. */
+    @media (prefers-reduced-motion: reduce) {
+      .box-inner {
+        animation: none;
+        background-size: 140px 140px, 140px 140px, 140px 140px, 2000px 35%;
+        background-position: 0 0, 0 0, 0 0, 0 130%;
+      }
+    }
+
+    /* The headline is an h1 for the document outline and for SEO. Nothing in
+       the stylesheets targets .mdx-hero h1, so it is styled here. */
+    /* .box-inner is whitesmoke in both palettes, so these are fixed dark
+       values rather than scheme variables. Using --md-default-fg-color here
+       inverted to near-white on slate and measured 1.17:1 against the panel. */
+    .mdx-hero h1 {
+      color: rgba(0, 0, 0, 0.87);
+      font-weight: 300;
+      line-height: 1.2;
+      margin: 0 auto 0.5em;
+      max-width: 18em;
+    }
+
+    .mdx-hero__subhead {
+      color: rgba(0, 0, 0, 0.62);
+      font-weight: 300;
+      margin: 0 auto 2em;
+      max-width: 34em;
+    }
+
+    /* The buttons inherit palette colours too, and the secondary ones render
+       as light-on-light against the panel under slate. */
+    [data-md-color-scheme="slate"] .mdx-hero__content a.md-button {
+      color: rgba(0, 0, 0, 0.80);
+      border-color: rgba(0, 0, 0, 0.45);
+    }
+    [data-md-color-scheme="slate"] .mdx-hero__content a.md-button--primary {
+      color: var(--md-primary-bg-color);
+      background-color: var(--md-primary-fg-color);
+      border-color: var(--md-primary-fg-color);
+    }
   </style>
 
   <!-- Hero for landing page -->
@@ -122,12 +154,15 @@
 
         <!-- Hero content -->
         <div class="mdx-hero__content">
-          <h3>Strategy, content, and the joy of social impact</h3>
-          <a href="{{ 'resume/' | url }}"
-             title="Resume"
-             class="md-button"
+          <h1>Whatever your data does not say clearly, your AI will say for you.</h1>
+          <p class="mdx-hero__subhead">Thirty years making meaning survive the systems that carry it, at Macromedia, Adobe, Planet Labs, and Geospan. Now semantic architecture for organizations running agents on themselves.</p>
+          <a
+            href="https://allostasis.ai"
+            title="Allostasis AI"
+            class="md-button md-button--primary"
+            target="_blank"
           >
-            Resume
+            Allostasis AI
           </a>
           <a
             href="{{ 'portfolio/' | url }}"
@@ -136,12 +171,18 @@
           >
             Portfolio
           </a>
+          <a href="{{ 'resume/' | url }}"
+             title="Resume"
+             class="md-button"
+          >
+            Resume
+          </a>
           <br>
           <br>
           <br>
           <a
-            href="{{ 'https://gnowledge-karden.ghost.io/' | url }}"
-            title="Portfolio"
+            href="https://gnowledge-karden.ghost.io/"
+            title="Thoughts in the Gnowledge Karden"
             class="md-button"
             target="_blank"
           >
