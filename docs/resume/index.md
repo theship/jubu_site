@@ -12,7 +12,7 @@ title: Resume
 
     For a detailed view of my endeavors, see my [linkedin.com/in/jburdekin](https://www.linkedin.com/in/jburdekin/){:target="_blank"} profile.
 
-Content isn't a sales asset. It's how organizations manifest consciousness. Structured, it remembers; connected, it learns. I've spent thirty years designing those connections — at Macromedia, Adobe, Planet Labs, and Geospan — and now through Allostasis AI, building the semantic layer that lets AI agents act on designed context instead of guesswork.
+Content isn't a sales asset. It's how organizations manifest consciousness. Structured, it remembers; connected, it learns. I've spent decades wiring up those connections. Currently, I'm focusing on how meaning and brilliance survive the content pipeline.
 
 ## Experience
 
