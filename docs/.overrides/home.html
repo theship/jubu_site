@@ -80,13 +80,13 @@
          offsets, and resolve onto a single aligned grid. The wave layer is
          static and takes no part in the animation. */
       background-image:
-        url("data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' width='220' height='220'%3e%3cg fill='none' stroke='%234051b5' stroke-opacity='.34' stroke-width='2.5' stroke-linecap='round'%3e%3cpath d='M23 41h31M151 27h19M78 103h27M189 138h23M49 182h36'/%3e%3c/g%3e%3c/svg%3e"),
-        url("data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' width='220' height='220'%3e%3cg fill='none' stroke='%2326a699' stroke-opacity='.30' stroke-width='2.5' stroke-linecap='round'%3e%3cpath d='M23 41h31M151 27h19M78 103h27M189 138h23M49 182h36'/%3e%3c/g%3e%3c/svg%3e"),
-        url("data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' width='220' height='220'%3e%3cg fill='none' stroke='%23546d78' stroke-opacity='.26' stroke-width='2.5' stroke-linecap='round'%3e%3cpath d='M23 41h31M151 27h19M78 103h27M189 138h23M49 182h36'/%3e%3c/g%3e%3c/svg%3e"),
+        url("data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' width='360' height='360'%3e%3cg fill='%23f5f5f5' stroke='%233f4652' stroke-opacity='.52' stroke-width='2.6'%3e%3cg transform='rotate(-17 104 112)'%3e%3ccircle cx='104' cy='112' r='13'/%3e%3ccircle cx='44' cy='58' r='7'/%3e%3ccircle cx='56' cy='182' r='7'/%3e%3c/g%3e%3cg transform='rotate(41 268 258)'%3e%3ccircle cx='268' cy='258' r='9'/%3e%3c/g%3e%3cg transform='rotate(105 296 108)'%3e%3ccircle cx='296' cy='108' r='7'/%3e%3c/g%3e%3c/g%3e%3c/svg%3e"),
+        url("data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' width='360' height='360'%3e%3cg fill='%23f5f5f5' stroke='%233f4652' stroke-opacity='.46' stroke-width='2.6'%3e%3cg transform='rotate(-17 104 112)'%3e%3ccircle cx='166' cy='68' r='5.5'/%3e%3ccircle cx='116' cy='230' r='5'/%3e%3c/g%3e%3cg transform='rotate(41 268 258)'%3e%3ccircle cx='318' cy='210' r='5'/%3e%3ccircle cx='236' cy='322' r='5.5'/%3e%3c/g%3e%3cg transform='rotate(105 296 108)'%3e%3ccircle cx='340' cy='146' r='4.5'/%3e%3ccircle cx='256' cy='152' r='5'/%3e%3c/g%3e%3c/g%3e%3c/svg%3e"),
+        url("data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' width='360' height='360'%3e%3cg fill='none' stroke='%23e0a03a' stroke-opacity='.72' stroke-width='2.4' stroke-linecap='round'%3e%3cg transform='rotate(-17 104 112)'%3e%3cpath d='M104 112L44 58M104 112L166 68M104 112L56 182M104 112L116 230M44 58L56 182'/%3e%3c/g%3e%3cg transform='rotate(41 268 258)'%3e%3cpath d='M268 258L318 210M268 258L236 322'/%3e%3c/g%3e%3cg transform='rotate(105 296 108)'%3e%3cpath d='M296 108L340 146M296 108L256 152'/%3e%3c/g%3e%3c/g%3e%3c/svg%3e"),
         url("data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' width='1600' height='198'%3e%3cdefs%3e%3clinearGradient id='a' x1='50%25' x2='50%25' y1='-10.959%25' y2='100%25'%3e%3cstop stop-color='%23dfe6ee' stop-opacity='.25' offset='0%25'/%3e%3cstop stop-color='%23546d78' offset='100%25'/%3e%3c/linearGradient%3e%3c/defs%3e%3cpath fill='url(%23a)' fill-rule='evenodd' d='M.005 121C311 121 409.898-.25 811 0c400 0 500 121 789 121v77H0s.005-48 .005-77z'/%3e%3c/svg%3e");
       background-repeat: repeat, repeat, repeat, repeat-x;
-      background-size: 300px 300px, 168px 168px, 232px 232px, 2000px 35%;
-      background-position: 71px 43px, -53px 89px, 117px -61px, 0 130%;
+      background-size: 490px 490px, 274px 274px, 380px 380px, 2000px 35%;
+      background-position: 117px 71px, -88px 146px, 189px -101px, 0 130%;
 
       animation: 12s drift cubic-bezier(0.22, 0.61, 0.36, 1) forwards;
     }
@@ -96,7 +96,7 @@
        the point, so this runs once rather than looping. */
     @keyframes drift {
       to {
-        background-size: 220px 220px, 220px 220px, 220px 220px, 2000px 35%;
+        background-size: 360px 360px, 360px 360px, 360px 360px, 2000px 35%;
         background-position: 0 0, 0 0, 0 0, 0 130%;
       }
     }
@@ -105,16 +105,17 @@
     @media (prefers-reduced-motion: reduce) {
       .box-inner {
         animation: none;
-        background-size: 220px 220px, 220px 220px, 220px 220px, 2000px 35%;
+        background-size: 360px 360px, 360px 360px, 360px 360px, 2000px 35%;
         background-position: 0 0, 0 0, 0 0, 0 130%;
       }
     }
 
-    /* The headline is an h1 for the document outline and for SEO. Nothing in
-       the stylesheets targets .mdx-hero h1, so it is styled here. */
-    /* .box-inner is whitesmoke in both palettes, so these are fixed dark
-       values rather than scheme variables. Using --md-default-fg-color here
-       inverted to near-white on slate and measured 1.17:1 against the panel. */
+    /* The headline is an h1 for the document outline and for SEO. Nothing in the
+       served CSS targets .mdx-hero h1: docs/.overrides/assets/stylesheets/
+       custom/layout/_hero.scss does define one, but that tree is never compiled
+       and never ships, so the rule has no effect. Styled here instead.
+       These are fixed dark values, not scheme variables, because the card is
+       var(--md-primary-bg-color) = #fff in both palettes. */
     .mdx-hero h1 {
       color: rgba(0, 0, 0, 0.87);
       font-weight: 300;
@@ -135,7 +136,7 @@
       background-color: var(--md-primary-bg-color);
       border-radius: 10px;
       box-shadow: 0 2px 20px rgba(0, 0, 0, 0.10);
-      max-width: 48rem;
+      max-width: min(48rem, calc(100% - 2rem));
       margin: 3rem auto;
       padding: 3rem 2.5rem;
     }
@@ -149,13 +150,23 @@
       background-color: var(--md-primary-fg-color);
     }
 
-    /* The buttons inherit palette colours too, and the secondary ones render
-       as light-on-light against the panel under slate. */
-    [data-md-color-scheme="slate"] .mdx-hero__content a.md-button {
+    /* The buttons inherit palette colours, and the secondary ones would render
+       light-on-light against the panel under slate. Scoped to the resting state
+       so material's hover and focus styles still apply. */
+    [data-md-color-scheme="slate"] .mdx-hero__content a.md-button:not(:hover):not(:focus) {
       color: rgba(0, 0, 0, 0.80);
       border-color: rgba(0, 0, 0, 0.45);
     }
-    [data-md-color-scheme="slate"] .mdx-hero__content a.md-button--primary {
+    [data-md-color-scheme="slate"] .mdx-hero__content a.md-button--primary:not(:hover):not(:focus) {
+      color: var(--md-primary-bg-color);
+      background-color: var(--md-primary-fg-color);
+      border-color: var(--md-primary-fg-color);
+    }
+
+    /* Hover and focus use the primary rather than the accent, which lifts the
+       ratio against white from material's stock 4.26:1 to 6.86:1. */
+    .mdx-hero__content a.md-button:hover,
+    .mdx-hero__content a.md-button:focus {
       color: var(--md-primary-bg-color);
       background-color: var(--md-primary-fg-color);
       border-color: var(--md-primary-fg-color);
@@ -180,6 +191,7 @@
             title="Allostasis AI"
             class="md-button md-button--primary"
             target="_blank"
+            rel="noopener"
           >
             Allostasis AI
           </a>
@@ -204,6 +216,7 @@
             title="Thoughts in the Gnowledge Karden"
             class="md-button"
             target="_blank"
+            rel="noopener"
           >
             Thoughts in the Gnowledge Karden
           </a>
