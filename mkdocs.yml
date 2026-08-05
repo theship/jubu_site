@@ -104,16 +104,12 @@ extra:
       link: https://github.com/theship
     - icon: fontawesome/brands/instagram
       link: https://www.instagram.com/pequodcapt/
-    - icon: fontawesome/brands/bluesky
-      link: https://bsky.app/profile/pequodcapt.bsky.social
     - icon: fontawesome/brands/stack-overflow
       link: https://stackoverflow.com/users/4233413/theship
     - icon: fontawesome/brands/codepen
       link: https://codepen.io/theship
     - icon: fontawesome/brands/connectdevelop
       link: https://devpost.com/theship
-    - icon: fontawesome/brands/mastodon
-      link: https://tech.lgbt/@julee
 
 
 
