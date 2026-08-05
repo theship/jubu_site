@@ -62,7 +62,9 @@ section.portfolio-container {
   align-items: center;
   align-content: center;
   margin: 0 auto;
-  max-width: 66%;
+  // 80% of .md-content__inner, not of the viewport. Three 20vw tiles plus their
+  // 0.5vw margins need ~907px at 1440; 66% only yielded 774px and wrapped to 2 per row.
+  max-width: 80%;
   .portfolio-overview-item {
     margin: 0.5vh 0.5vw;
     padding: 0.5vh 0.5vw;
