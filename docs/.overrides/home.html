@@ -80,13 +80,13 @@
          offsets, and resolve onto a single aligned grid. The wave layer is
          static and takes no part in the animation. */
       background-image:
-        url("data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' width='140' height='140'%3e%3cg fill='none' stroke='%234051b5' stroke-opacity='.34' stroke-width='2.5' stroke-linecap='round'%3e%3cpath d='M24 26v20M76 20v20M122 30v20M14 74v20M64 68v20M112 78v20M38 120v18M92 114v18'/%3e%3c/g%3e%3c/svg%3e"),
-        url("data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' width='140' height='140'%3e%3cg fill='none' stroke='%2326a699' stroke-opacity='.30' stroke-width='2.5' stroke-linecap='round'%3e%3cpath d='M24 26v20M76 20v20M122 30v20M14 74v20M64 68v20M112 78v20M38 120v18M92 114v18'/%3e%3c/g%3e%3c/svg%3e"),
-        url("data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' width='140' height='140'%3e%3cg fill='none' stroke='%23546d78' stroke-opacity='.26' stroke-width='2.5' stroke-linecap='round'%3e%3cpath d='M24 26v20M76 20v20M122 30v20M14 74v20M64 68v20M112 78v20M38 120v18M92 114v18'/%3e%3c/g%3e%3c/svg%3e"),
+        url("data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' width='220' height='220'%3e%3cg fill='none' stroke='%234051b5' stroke-opacity='.34' stroke-width='2.5' stroke-linecap='round'%3e%3cpath d='M23 41h31M151 27h19M78 103h27M189 138h23M49 182h36'/%3e%3c/g%3e%3c/svg%3e"),
+        url("data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' width='220' height='220'%3e%3cg fill='none' stroke='%2326a699' stroke-opacity='.30' stroke-width='2.5' stroke-linecap='round'%3e%3cpath d='M23 41h31M151 27h19M78 103h27M189 138h23M49 182h36'/%3e%3c/g%3e%3c/svg%3e"),
+        url("data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' width='220' height='220'%3e%3cg fill='none' stroke='%23546d78' stroke-opacity='.26' stroke-width='2.5' stroke-linecap='round'%3e%3cpath d='M23 41h31M151 27h19M78 103h27M189 138h23M49 182h36'/%3e%3c/g%3e%3c/svg%3e"),
         url("data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' width='1600' height='198'%3e%3cdefs%3e%3clinearGradient id='a' x1='50%25' x2='50%25' y1='-10.959%25' y2='100%25'%3e%3cstop stop-color='%23dfe6ee' stop-opacity='.25' offset='0%25'/%3e%3cstop stop-color='%23546d78' offset='100%25'/%3e%3c/linearGradient%3e%3c/defs%3e%3cpath fill='url(%23a)' fill-rule='evenodd' d='M.005 121C311 121 409.898-.25 811 0c400 0 500 121 789 121v77H0s.005-48 .005-77z'/%3e%3c/svg%3e");
       background-repeat: repeat, repeat, repeat, repeat-x;
-      background-size: 196px 196px, 104px 104px, 148px 148px, 2000px 35%;
-      background-position: 53px 31px, -37px 67px, 89px -43px, 0 130%;
+      background-size: 300px 300px, 168px 168px, 232px 232px, 2000px 35%;
+      background-position: 71px 43px, -53px 89px, 117px -61px, 0 130%;
 
       animation: 12s drift cubic-bezier(0.22, 0.61, 0.36, 1) forwards;
     }
@@ -96,7 +96,7 @@
        the point, so this runs once rather than looping. */
     @keyframes drift {
       to {
-        background-size: 140px 140px, 140px 140px, 140px 140px, 2000px 35%;
+        background-size: 220px 220px, 220px 220px, 220px 220px, 2000px 35%;
         background-position: 0 0, 0 0, 0 0, 0 130%;
       }
     }
@@ -105,7 +105,7 @@
     @media (prefers-reduced-motion: reduce) {
       .box-inner {
         animation: none;
-        background-size: 140px 140px, 140px 140px, 140px 140px, 2000px 35%;
+        background-size: 220px 220px, 220px 220px, 220px 220px, 2000px 35%;
         background-position: 0 0, 0 0, 0 0, 0 130%;
       }
     }
@@ -128,6 +128,25 @@
       font-weight: 300;
       margin: 0 auto 2em;
       max-width: 34em;
+    }
+
+    /* Opaque panel, so the copy never competes with the marks behind it. */
+    .mdx-hero__content {
+      background-color: var(--md-primary-bg-color);
+      border-radius: 10px;
+      box-shadow: 0 2px 20px rgba(0, 0, 0, 0.10);
+      max-width: 48rem;
+      margin: 3rem auto;
+      padding: 3rem 2.5rem;
+    }
+
+    .mdx-hero__content a.md-button {
+      background-color: var(--md-primary-bg-color--light);
+      margin: 0.3rem;
+    }
+
+    .mdx-hero__content a.md-button--primary {
+      background-color: var(--md-primary-fg-color);
     }
 
     /* The buttons inherit palette colours too, and the secondary ones render
