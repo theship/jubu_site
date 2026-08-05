@@ -4,7 +4,7 @@ title: Resume
 
 # Resume {#resume-h1}
 
-![Julee Burdekin at Work](../assets/images/resume/julee-burdekin-at-work.png){: width=" 100vw"}
+![Julee Burdekin at play](../assets/images/resume/julee-burdekin-at-play.jpg){: style="width:220px"}
 
 ## Summary
 
@@ -12,73 +12,47 @@ title: Resume
 
     For a detailed view of my endeavors, see my [linkedin.com/in/jburdekin](https://www.linkedin.com/in/jburdekin/){:target="_blank"} profile.
 
-Technologist and strategic leader with a proven performance history in content development and engineering, developer relations, and technical design across industry-leading organizations. Excellent at managing teams, advocating for content experience, and championing cross-functional collaboration while driving innovation and operational excellence.
+Content isn't a sales asset. It's how organizations manifest consciousness. Structured, it remembers; connected, it learns. I've spent thirty years designing those connections — at Macromedia, Adobe, Planet Labs, and Geospan — and now through Allostasis AI, building the semantic layer that lets AI agents act on designed context instead of guesswork.
 
 ## Experience
 
-### Technical Content Engineer
+### Founder — Allostasis AI · October 2023 – Present
 
-#### Geospan, Inc.
+Independent knowledge-engineering practice focused on agent-readiness: the principles, workflows, reference knowledge, and evals that let agents act on designed context rather than guesswork. Built Towndraft, an agentic pipeline on FastAPI, Next.js, and Supabase/pgvector whose agents work from a versioned knowledge graph. Runs spec-driven development as standard practice. Author of the [Agent-Readiness Field Guide](https://allostasis.ai/agent-readiness){:target="_blank"} — *Organizational legibility: six layers, seven tests* — and [*Build Your Semantic Infrastructure First*](https://gnowledge-karden.ghost.io/build-your-semantic-infrastructure-first/){:target="_blank"}.
 
-##### August 2024 - Present
+### Technical Content Engineer — Geospan, Inc. · August 2024 – August 2025
 
-Leading content engineering and strategy for new engineering team. Writing developer documentation and code examples in Python and JavaScript frameworks. Mentoring leadership and engineers in knowledge systems, information architecture, and content operations. Built first-generation developer docs, Postman collections, and Hugo CMS redesign while implementing HubSpot Knowledge Base and launching internal developer experience.
+Built first-generation developer documentation, Python and JavaScript code examples, and Postman collections for integration partners. Delivered a Hugo CMS redesign and HubSpot Knowledge Base, establishing the internal developer experience for a new engineering team.
 
-### Head of Developer Relations
+### Head of Developer Relations — Planet Labs, PBC · October 2021 – October 2023
 
-#### Planet Labs, PBC
+Scaled from developer relations content developer to head of function. Led development of the Planet SDK and CLI for Python and built knowledge systems serving agriculture, forestry, and government through a remote-sensing and geospatial platform.
 
-##### October 2021 - October 2023
+### Founder — Abevy, Inc. · April 2015 – June 2024
 
-Scaled from Developer Relations content developer to Head of Developer Relations. Led development of Planet SDK and CLI for Python while managing platform content systems and publication channels. Built knowledge systems serving agriculture, forestry, and government sectors through remote sensing, GIS, geospatial data platform.
+Benefit corporation building technical forums and software prototypes with and for older women in tech.
 
-### Founder & CEO
+### Senior Web Developer & Technical Lead — Viscira · February 2016 – February 2019
 
-#### Abevy, Inc
+Frontend and data-visualization work for life sciences in Angular, D3, GSAP, and Bootstrap; led web and mobile development teams.
 
-##### 2017 - June 2024
+### Content Strategist & Senior Manager — Adobe Systems · June 2006 – March 2015
 
-This benefit corporation provided technical forums for older women and their supporters. Identified and developed new product prototypes based on real-life problems. Set corporate strategy and operational frameworks while managing presentation layers and content for product releases. Planned and assembled skills-based teams within inclusive culture.
+Content strategy for Adobe's Web Platform initiatives; W3C Steward Representative. Built data pipelines in SQL, Hadoop, Hive, and NLTK, and product managed the ActionScript Reference platform.
 
-### Senior Web Developer & Technical Lead
+### Documentation Manager & Lead Writer — Macromedia, Inc. · 2000 – 2006
 
-#### Viscira, Inc
+Documentation architecture for Dreamweaver, Flash, ActionScript, and Flash Media Server; introduced automated tooling (Doxygen, ASDoc).
 
-##### October 2016 - February 2019
+### Lead Writer — RSA Security · 1995 – 2000
 
-Developed frontend experiences and mobile media communication solutions for life sciences and pharmaceutical clients. Led web and mobile development teams while delivering rapid development solutions using modern web stack (Angular, React, D3, GSAP, Bootstrap). Specialized in responsive web applications, data visualization, and Salesforce Lightning platform development.
-
-### Senior Editorial Manager & Content Strategist
-
-#### Adobe Systems, Inc
-
-##### July 2000 - March 2015
-
-Led content strategy for Adobe's web platform. Built data pipelines with SQL, Hadoop, Hive, and NLTK. Served as W3C Steward Representative for global developer knowledge systems.
-
-Launched web standards content experiences and managed expert contributor networks. Built developer communities around Adobe web technologies.
-
-Created predictive dashboard analyzing developer pain points through behavioral/sentiment metrics. Led technical analysis of CRMs and knowledge bases, implementing SEO optimization and Experience Manager integrations. Product managed ActionScript Reference platform.
-
-Managed teams producing ActionScript/JavaScript frameworks for AIR and Flash Platform. Directed cross-functional delivery into Flex, Flash Professional, and SaaS products while building content workflow systems.
-
-At Macromedia (acquired by Adobe 2006), led documentation architecture for Dreamweaver, Flash, ActionScript, and Flash Media Server. Managed writer/developer teams, established content standards, and implemented automated tooling (Doxygen, ASDoc). Introduced automation tools and guided ASDoc roadmap development.
-
-### Lead Writer
-
-#### RSA Security, Inc
-
-##### 1995 - 2000
-
-Led API documentation teams for cryptographic security products. Managed cross-functional teams including engineers and developer support, creating comprehensive documentation for certificate servers and desktop security software.
+API documentation for cryptographic security products, including certificate servers and desktop security software.
 
 ## Education
 
-### Mills College, Oakland, California
+### Mills College, Oakland, California · 1991 – 1995
 
-##### 1995
-
-BA, English, Interdisciplinary Studies in Computer Science, Philosophy of Science
+BA, English, with interdisciplinary study in computer science and philosophy of science
 
 <hr>
 
