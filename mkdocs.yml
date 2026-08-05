@@ -167,6 +167,7 @@ nav:
     - resume/index.md
   - Portfolio:
     - "Portfolio": portfolio/index.md
+    - "Semantic Architecture": portfolio/allostasis-semantic-architecture.md
     - "Continuous Content": portfolio/planet-labs-content-engineering.md
     - "Social Impact": portfolio/abevy-making-social-impact.md
     - "Frontend Tooling": portfolio/viscira-life-science-in-action.md
