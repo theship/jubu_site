@@ -18,7 +18,7 @@
 <div class="portfolio-overview-item">
 <h2 class="portfolio-landing-h2"><a href="planet-labs-content-engineering/">Continuous content, continuous improvement at Planet Labs</a></h2>
 <a href="planet-labs-content-engineering/">
-  <img src="../assets/images/portfolio/planet_labs_landing_page.jpg" alt="Planet Labs PBC Landing Page">
+  <img src="../assets/images/portfolio/planet_labs_landing_page.png" alt="Planet Labs PBC Landing Page">
 </a>
 </div>
 
@@ -39,7 +39,7 @@
 <div class="portfolio-overview-item">
 <h2 class="portfolio-landing-h2"><a href="adobe-developer-focused/">Content strategy &amp; engineering at Adobe</a></h2>
 <a href="adobe-developer-focused/">
-  <img src="../assets/images/portfolio/adobe_creative_cloud_landing_page.jpg" alt="Adobe Landing Page">
+  <img src="../assets/images/portfolio/adobe_creative_cloud_landing_page.png" alt="Adobe Landing Page">
 </a>
 </div>
 
