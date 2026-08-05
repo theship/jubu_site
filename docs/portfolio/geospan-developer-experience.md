@@ -13,7 +13,7 @@
       </a>
       <figcaption class="md-typeset">
         <h2>First developer docs for a <strong>new engineering team</strong></h2>
-        <p>Geospan has thirty years of patented roof-measurement technology behind gSquare, gPro, and gPro xPress, serving insurance, roofing, and government, with integrations into Verisk/Xactimate, Cotality, Acculynx and others. When the engineering team formed, none of that had a developer-facing surface.
+        <p>Geospan had three decades of patented geospatial imaging technology behind it, applied to roof measurement from 2024 through gSquare, gPro, and gPro xPress. The products served insurance, roofing, and government, with integrations into Verisk/Xactimate, Cotality, and Acculynx, among others. When the engineering team formed, none of it had a developer-facing surface.
         </p>
         <ul>
           <li>Built the <a href="https://docs.geospan.com" target="_blank">first-generation developer documentation</a> from nothing</li>
@@ -43,11 +43,11 @@
         <p>A developer surface is only worth building if someone can keep it alive. Alongside the documentation itself, the engagement delivered the operations around it.
         </p>
         <ul>
-          <li>Redesigned the marketing and documentation site on the Hugo CMS</li>
+          <li>Redesigned the <a href="https://docs.geospan.com" target="_blank">developer documentation site</a> on the Hugo CMS</li>
           <li>Implemented the <a href="https://support.geospan.com/knowledge" target="_blank">HubSpot Knowledge Base</a> and launched the internal developer experience</li>
           <li>Mentored leadership and engineers in knowledge systems, information architecture, and content operations</li>
         </ul>
-        <p>That last item is the one that matters, because documentation decays without it. A year in, the engineering team had a developer surface it could maintain itself.
+        <p>That last item is the one that matters, because documentation decays without it. By the end of the engagement, the engineering team had a developer surface it could maintain itself.
         </p>
         <p>
           <a href="https://support.geospan.com/knowledge"
