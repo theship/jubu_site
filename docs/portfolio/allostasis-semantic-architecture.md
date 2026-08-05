@@ -57,7 +57,7 @@
         </style>
         <text class="sl-ttl" x="0" y="40">Six layers, seven tests</text>
         <text class="sl-sub" x="0" y="72">Agent-readiness is a vision-fidelity problem, not a documentation problem.</text>
-        <text class="sl-grp" x="0" y="128">The substrate &mdash; what your agents read</text>
+        <text class="sl-grp" x="0" y="128">The substrate: what your agents read</text>
         <line class="sl-rail" x1="0" y1="140" x2="1000" y2="140"></line>
         <g>
           <rect class="sl-card" x="0" y="158" width="1000" height="146" rx="10"></rect>
@@ -74,7 +74,7 @@
           <text class="sl-lbl"  x="96" y="396">test</text>
           <text class="sl-test" x="96" y="430">traversal-probe</text>
         </g>
-        <text class="sl-grp" x="0" y="518">The build decisions &mdash; how the work is organized</text>
+        <text class="sl-grp" x="0" y="518">The build decisions: auditable properties of how you've organized the work</text>
         <line class="sl-rail" x1="0" y1="530" x2="1000" y2="530"></line>
         <g>
           <rect class="sl-card" x="0" y="548" width="1000" height="146" rx="10"></rect>
@@ -97,7 +97,7 @@
           <text class="sl-lbl"  x="96" y="950">test</text>
           <text class="sl-test" x="96" y="984">coherence-probe</text>
         </g>
-        <text class="sl-grp" x="0" y="1072">The loop &mdash; how you know any of it is working</text>
+        <text class="sl-grp" x="0" y="1072">The loop: how you know any of it is working</text>
         <line class="sl-rail" x1="0" y1="1084" x2="1000" y2="1084"></line>
         <g>
           <rect class="sl-card" x="0" y="1102" width="1000" height="146" rx="10"></rect>
@@ -107,7 +107,7 @@
           <text class="sl-test" x="96" y="1210">silent-failure-probe</text>
         </g>
         <line class="sl-rail" x1="0" y1="1300" x2="1000" y2="1300"></line>
-        <text class="sl-foot" x="0" y="1336">Built in process order. Every test runs in-house, with the access you already have.</text>
+        <text class="sl-foot" x="0" y="1336">Built in process order. Every test runs in-house, with the tools and access you already have.</text>
       </svg>
       </a>
       <figcaption class="md-typeset">
@@ -115,7 +115,7 @@
         <p>An agent-ready organization is built in process order: first the substrate agents read, then three decisions about how the work is organized, then the loop that proves the rest is working. Six layers, seven tests &mdash; and every test runs in-house, with the tools and access you already have.
         </p>
         <ul>
-          <li><strong>The legible substrate</strong> &mdash; vision and principles, vocabulary and contracts. Tested by <code>tradeoff-probe</code> and <code>ten-term-diff</code></li>
+          <li><strong>The legible substrate</strong> &mdash; vision &amp; principles, vocabulary &amp; contracts. Tested by <code>tradeoff-probe</code> and <code>ten-term-diff</code></li>
           <li><strong>The knowledge graph as domain bounds</strong> &mdash; an explicit, versioned domain model wired in as the boundary of agent investigation. Tested by <code>traversal-probe</code></li>
           <li><strong>The deterministic boundary</strong> &mdash; what should be tested machinery rather than model judgment. Tested by <code>misallocation-inventory</code></li>
           <li><strong>Workflows from observation, not the org chart</strong> &mdash; tested by <code>cold-start-run</code></li>
@@ -243,13 +243,13 @@
       <figcaption class="md-typeset">
         <h2>Three ways to <strong>engage</strong></h2>
         <ul>
-          <li><strong>The Agent-Readiness Audit</strong> &mdash; a fixed-scope, fixed-price diagnostic: a scored map of all six layers against the rubric, the ten-term diff run across your actual systems, a rescue-count baseline on named workflows, a determinism inventory, and three data contracts your leadership needs to ratify</li>
+          <li><strong>The Agent-Readiness Audit</strong> &mdash; a fixed-scope, fixed-price diagnostic: a scored map of all six layers against our rubric (which you keep), the ten-term diff run across your actual systems, a rescue-count baseline on named workflows, a map of which steps in those workflows are deterministic and currently left to agent judgment, and three data contracts your leadership needs to ratify</li>
           <li><strong>The Semantic Architecture Engagement</strong> &mdash; a defined project to close the gaps the audit found, scoped from the audit, on whatever platform you already run</li>
           <li><strong>Fractional Knowledge Engineering</strong> &mdash; a monthly retainer for organizations scaling agent use, where the semantic layer needs continuous architecture, governance, and evals</li>
         </ul>
-        <p>This is not a pivot. Multi-axis metadata at Adobe served the right content to each product SKU off one source. Naming conventions at Planet Labs had to hold meaning across imagery products and a decade of downstream analysis. The first developer documentation at Geospan gave a new engineering team a surface it could maintain itself. Same problem each time: making meaning survive contact with the systems that carry it.
+        <p>This is not a pivot. Multi-axis metadata at Adobe served the right content to each product SKU off one source. A naming convention at Planet kept satellite imagery identifiable from the ground station all the way to the analyst&rsquo;s workbench. The first developer documentation at Geospan gave a new engineering team a surface it could maintain itself. Same problem each time: making meaning survive contact with the systems that carry it.
         </p>
-        <p><em>allostasis: stability through change.</em>
+        <p><em>allostasis: stability through change</em>
         </p>
         <p>
           <a href="https://allostasis.ai/contact"
